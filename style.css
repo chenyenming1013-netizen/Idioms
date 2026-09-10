@@ -150,6 +150,24 @@ img{max-width:100%}
 .art{margin:0 0 1.6rem;border-radius:12px;overflow:hidden;border:1.5px solid var(--line);background:#fff}
 .art svg{display:block;width:100%;height:auto}
 
+/* ---------- 輕量插圖動畫（純 CSS，不增加圖檔大小） ---------- */
+.art .a-bob{animation:aBob 2.6s ease-in-out infinite;transform-origin:center}
+.art .a-bubble{animation:aBubble 2.4s ease-in infinite}
+.art .a-bubble:nth-child(2){animation-delay:.6s}
+.art .a-wag{animation:aWag 1.6s ease-in-out infinite}
+.art .a-blink{animation:aBlink 3.2s steps(1) infinite}
+@keyframes aBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes aBubble{0%{transform:translateY(0);opacity:.9}100%{transform:translateY(-16px);opacity:0}}
+@keyframes aWag{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+@keyframes aBlink{0%,92%,100%{opacity:1}96%{opacity:0}}
+.art .a-glow{animation:aGlow 1.8s ease-in-out infinite;transform-origin:center}
+.art .a-sway{animation:aSway 2.8s ease-in-out infinite;transform-origin:bottom}
+@keyframes aGlow{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.25)}}
+@keyframes aSway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@media (prefers-reduced-motion: reduce){
+  .art .a-bob,.art .a-bubble,.art .a-wag,.art .a-blink,.art .a-glow,.art .a-sway{animation:none}
+}
+
 .sec{margin-top:1.75rem}
 .hd{display:flex;align-items:center;gap:.75rem;margin-bottom:.85rem;color:var(--green-dark);font-weight:700}
 .hd .zl{font-size:1.5rem}

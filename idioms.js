@@ -31,7 +31,7 @@ window.IDIOMS = [
     after: ['，有魚、有蝦，還有香菇雞湯。', 'ㄧㄡˇ ㄩˊ ㄧㄡˇ ㄒㄧㄚ ㄏㄞˊ ㄧㄡˇ ㄒㄧㄤ ㄍㄨ ㄐㄧ ㄊㄤ'],
     options: ['山珍海味', '粗茶淡飯'], answer: '山珍海味'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="140" height="150" fill="#E3F1FB"/><polygon points="0,112 50,45 100,112" fill="#97C459"/><polygon points="45,112 95,35 145,112" fill="#639922"/><rect y="108" width="140" height="42" fill="#C0DD97"/><rect x="30" y="120" width="9" height="16" rx="3" fill="#F6F1E4"/><path d="M20,124 Q34,102 49,124Z" fill="#D85A30"/><circle cx="30" cy="116" r="2.3" fill="#fff"/><circle cx="39" cy="113" r="1.8" fill="#fff"/><path d="M88,142 L100,104 L112,142Z" fill="#BA7517"/><path d="M91,132H109M95,120H105" stroke="#854F0B" stroke-width="1.5"/><rect x="140" width="140" height="150" fill="#E3F1FB"/><path d="M140,26 Q157,18 175,26 T210,26 T245,26 T280,26 V150 H140Z" fill="#85B7EB"/><path d="M140,128 Q180,118 210,128 T280,128 V150 H140Z" fill="#FAC775"/><polygon points="168,64 156,54 156,74" fill="#EF9F27"/><ellipse cx="186" cy="64" rx="20" ry="11" fill="#EF9F27"/><circle cx="197" cy="61" r="2.3" fill="#2C2C2A"/><circle cx="214" cy="48" r="3" fill="none" stroke="#fff" stroke-width="1.5"/><circle cx="220" cy="38" r="2" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M227,124 L218,132 M229,128 L221,136 M253,124 L262,132 M251,128 L259,136" stroke="#A32D2D" stroke-width="2" stroke-linecap="round"/><path d="M232,116 L225,108 M248,116 L255,108" stroke="#E24B4A" stroke-width="3" stroke-linecap="round"/><circle cx="223" cy="105" r="5.5" fill="#E24B4A"/><circle cx="257" cy="105" r="5.5" fill="#E24B4A"/><ellipse cx="240" cy="122" rx="15" ry="9" fill="#E24B4A"/><circle cx="235" cy="113" r="2.2" fill="#2C2C2A"/><circle cx="245" cy="113" r="2.2" fill="#2C2C2A"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="140" height="150" fill="#E3F1FB"/><polygon points="0,112 50,45 100,112" fill="#97C459"/><polygon points="45,112 95,35 145,112" fill="#639922"/><rect y="108" width="140" height="42" fill="#C0DD97"/><rect x="30" y="120" width="9" height="16" rx="3" fill="#F6F1E4"/><path d="M20,124 Q34,102 49,124Z" fill="#D85A30"/><circle cx="30" cy="116" r="2.3" fill="#fff"/><circle cx="39" cy="113" r="1.8" fill="#fff"/><path d="M88,142 L100,104 L112,142Z" fill="#BA7517"/><path d="M91,132H109M95,120H105" stroke="#854F0B" stroke-width="1.5"/><rect x="140" width="140" height="150" fill="#E3F1FB"/><path d="M140,26 Q157,18 175,26 T210,26 T245,26 T280,26 V150 H140Z" fill="#85B7EB"/><path d="M140,128 Q180,118 210,128 T280,128 V150 H140Z" fill="#FAC775"/><g class="a-bob"><polygon points="168,64 156,54 156,74" fill="#EF9F27"/><ellipse cx="186" cy="64" rx="20" ry="11" fill="#EF9F27"/><circle cx="197" cy="61" r="2.3" fill="#2C2C2A"/></g><circle class="a-bubble" cx="214" cy="48" r="3" fill="none" stroke="#fff" stroke-width="1.5"/><circle class="a-bubble" cx="220" cy="38" r="2" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M227,124 L218,132 M229,128 L221,136 M253,124 L262,132 M251,128 L259,136" stroke="#A32D2D" stroke-width="2" stroke-linecap="round"/><path d="M232,116 L225,108 M248,116 L255,108" stroke="#E24B4A" stroke-width="3" stroke-linecap="round"/><circle cx="223" cy="105" r="5.5" fill="#E24B4A"/><circle cx="257" cy="105" r="5.5" fill="#E24B4A"/><ellipse cx="240" cy="122" rx="15" ry="9" fill="#E24B4A"/><circle cx="235" cy="113" r="2.2" fill="#2C2C2A"/><circle cx="245" cy="113" r="2.2" fill="#2C2C2A"/></svg>`
 },
 {
   id: 'hu-jia-hu-wei', cat: '動物',
@@ -61,7 +61,7 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['狐假虎威', '守株待兔'], answer: '狐假虎威'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><circle cx="40" cy="30" r="12" fill="#FAC775"/><rect y="122" width="280" height="28" fill="#C0DD97"/><path d="M240,98 Q258,90 254,74" stroke="#EF9F27" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="170" y="110" width="8" height="16" fill="#EF9F27"/><rect x="222" y="110" width="8" height="16" fill="#EF9F27"/><ellipse cx="200" cy="100" rx="40" ry="21" fill="#EF9F27"/><path d="M190,81 q-4,10 0,20 M205,80 q-4,11 0,21 M220,83 q-4,9 0,18" stroke="#633806" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="146" cy="70" r="5" fill="#EF9F27"/><circle cx="170" cy="70" r="5" fill="#EF9F27"/><circle cx="158" cy="86" r="18" fill="#EF9F27"/><path d="M154,72 v6 M158,70 v8 M162,72 v6" stroke="#633806" stroke-width="2" stroke-linecap="round"/><circle cx="152" cy="84" r="2" fill="#2C2C2A"/><circle cx="164" cy="84" r="2" fill="#2C2C2A"/><ellipse cx="158" cy="93" rx="3" ry="2" fill="#633806"/><rect x="74" y="114" width="5" height="12" fill="#993C1D"/><rect x="102" y="114" width="5" height="12" fill="#993C1D"/><ellipse cx="118" cy="100" rx="16" ry="7" fill="#D85A30" transform="rotate(-25 118 100)"/><circle cx="131" cy="94" r="4" fill="#FFF5EC"/><ellipse cx="90" cy="110" rx="22" ry="10" fill="#D85A30"/><polygon points="60,92 58,79 67,89" fill="#D85A30"/><polygon points="66,90 72,79 74,93" fill="#D85A30"/><circle cx="66" cy="100" r="10" fill="#D85A30"/><polygon points="60,97 46,103 60,106" fill="#D85A30"/><circle cx="46" cy="103" r="1.8" fill="#2C2C2A"/><circle cx="62" cy="98" r="1.6" fill="#2C2C2A"/><ellipse cx="73" cy="108" rx="5" ry="4" fill="#FFF5EC"/><ellipse cx="14" cy="101" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="19" cy="100" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="24" cy="118" rx="9" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="16" cy="112" r="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><path d="M34,110 H42 M36,118 H44" stroke="#888780" stroke-width="1.5" stroke-linecap="round"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><circle cx="40" cy="30" r="12" fill="#FAC775"/><rect y="122" width="280" height="28" fill="#C0DD97"/><path d="M240,98 Q258,90 254,74" stroke="#EF9F27" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="170" y="110" width="8" height="16" fill="#EF9F27"/><rect x="222" y="110" width="8" height="16" fill="#EF9F27"/><ellipse cx="200" cy="100" rx="40" ry="21" fill="#EF9F27"/><path d="M190,81 q-4,10 0,20 M205,80 q-4,11 0,21 M220,83 q-4,9 0,18" stroke="#633806" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="146" cy="70" r="5" fill="#EF9F27"/><circle cx="170" cy="70" r="5" fill="#EF9F27"/><circle cx="158" cy="86" r="18" fill="#EF9F27"/><path d="M154,72 v6 M158,70 v8 M162,72 v6" stroke="#633806" stroke-width="2" stroke-linecap="round"/><circle class="a-blink" cx="152" cy="84" r="2" fill="#2C2C2A"/><circle class="a-blink" cx="164" cy="84" r="2" fill="#2C2C2A"/><ellipse cx="158" cy="93" rx="3" ry="2" fill="#633806"/><rect x="74" y="114" width="5" height="12" fill="#993C1D"/><rect x="102" y="114" width="5" height="12" fill="#993C1D"/><ellipse cx="118" cy="100" rx="16" ry="7" fill="#D85A30" transform="rotate(-25 118 100)"/><circle cx="131" cy="94" r="4" fill="#FFF5EC"/><ellipse cx="90" cy="110" rx="22" ry="10" fill="#D85A30"/><polygon points="60,92 58,79 67,89" fill="#D85A30"/><polygon points="66,90 72,79 74,93" fill="#D85A30"/><circle cx="66" cy="100" r="10" fill="#D85A30"/><polygon class="a-wag" points="60,97 46,103 60,106" fill="#D85A30" style="transform-origin:60px 100px"/><circle cx="46" cy="103" r="1.8" fill="#2C2C2A"/><circle cx="62" cy="98" r="1.6" fill="#2C2C2A"/><ellipse cx="73" cy="108" rx="5" ry="4" fill="#FFF5EC"/><ellipse cx="14" cy="101" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="19" cy="100" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="24" cy="118" rx="9" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="16" cy="112" r="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><path d="M34,110 H42 M36,118 H44" stroke="#888780" stroke-width="1.5" stroke-linecap="round"/></svg>`
 },
 {
   id: 'hua-she-tian-zu', cat: '動物',
@@ -320,5 +320,424 @@ window.IDIOMS = [
     options: ['掩耳盜鈴', '自相矛盾'], answer: '掩耳盜鈴'
   },
   art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="125" width="280" height="25" fill="#D3D1C7"/><path d="M40,125 Q42,94 60,92 Q78,94 80,125Z" fill="#378ADD"/><circle cx="60" cy="72" r="16" fill="#F5C4B3"/><path d="M44,68 Q46,54 60,54 Q74,54 76,68 Q68,60 60,61 Q52,60 44,68Z" fill="#2C2C2A"/><path d="M52,74 q3,-3 6,0 M62,74 q3,-3 6,0" stroke="#2C2C2A" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M56,82 q4,2 8,0" stroke="#993C1D" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M48,100 L43,80 M72,100 L77,80" stroke="#F5C4B3" stroke-width="5" stroke-linecap="round"/><ellipse cx="43" cy="73" rx="6" ry="9" fill="#F5C4B3" stroke="#D85A30" stroke-width="1"/><ellipse cx="77" cy="73" rx="6" ry="9" fill="#F5C4B3" stroke="#D85A30" stroke-width="1"/><rect x="159" y="18" width="14" height="12" rx="2" fill="#854F0B"/><path d="M150,30 L182,30 L194,102 Q166,112 138,102 Z" fill="#BA7517" stroke="#633806" stroke-width="2"/><g fill="#EF9F27"><circle cx="156" cy="46" r="3"/><circle cx="166" cy="46" r="3"/><circle cx="176" cy="46" r="3"/><circle cx="154" cy="58" r="3"/><circle cx="166" cy="58" r="3"/><circle cx="178" cy="58" r="3"/></g><path d="M160,70 l7,10 l-5,9 l6,8" stroke="#633806" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M204,52 q10,16 0,32 M216,44 q16,24 0,48 M128,52 q-10,16 0,32 M116,44 q-16,24 0,48" stroke="#D85A30" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M214,124 L250,114" stroke="#854F0B" stroke-width="3.5" stroke-linecap="round"/><rect x="246" y="106" width="9" height="16" rx="1" fill="#5F5E5A" transform="rotate(-15 250 114)"/></svg>`
+}
+,
+{
+  id: 'dui-niu-tan-qin', cat: '動物',
+  word: ['對牛彈琴', 'ㄉㄨㄟˋ ㄋㄧㄡˊ ㄉㄢˋ ㄑㄧㄣˊ'],
+  keys: [
+    { k: ['彈', 'ㄉㄢˋ'], v: ['演奏', 'ㄧㄢˇ ㄗㄡˋ'] },
+    { k: ['琴', 'ㄑㄧㄣˊ'], v: ['樂器', 'ㄌㄜˋ ㄑㄧˋ'] }
+  ],
+  meaning: ['比喻對不懂道理的人講道理，白費口舌。', 'ㄅㄧˇ ㄩˋ ㄉㄨㄟˋ ㄅㄨˋ ㄉㄨㄥˇ ㄉㄠˋ ㄌㄧˇ ㄉㄜ˙ ㄖㄣˊ ㄐㄧㄤˇ ㄉㄠˋ ㄌㄧˇ ㄅㄞˊ ㄈㄟˋ ㄎㄡˇ ㄕㄜˊ'],
+  source: {
+    book: ['漢・牟融《理惑論》', 'ㄏㄢˋ ㄇㄡˊ ㄖㄨㄥˊ ㄌㄧˇ ㄏㄨㄛˋ ㄌㄨㄣˋ'],
+    story: [
+      ['有人在牛面前彈奏美妙的琴曲，牛卻只顧著低頭吃草。', 'ㄧㄡˇ ㄖㄣˊ ㄗㄞˋ ㄋㄧㄡˊ ㄇㄧㄢˋ ㄑㄧㄢˊ ㄉㄢˋ ㄗㄡˋ ㄇㄟˇ ㄇㄧㄠˋ ㄉㄜ˙ ㄑㄧㄣˊ ㄑㄩˇ ㄋㄧㄡˊ ㄑㄩㄝˋ ㄓˇ ㄍㄨˋ ㄓㄜ˙ ㄉㄧ ㄊㄡˊ ㄔ ㄘㄠˇ'],
+      ['不是琴聲不好聽，而是牛根本聽不懂音樂。', 'ㄅㄨˊ ㄕˋ ㄑㄧㄣˊ ㄕㄥ ㄅㄨˋ ㄏㄠˇ ㄊㄧㄥ ㄦˊ ㄕˋ ㄋㄧㄡˊ ㄍㄣ ㄅㄣˇ ㄊㄧㄥ ㄅㄨˋ ㄉㄨㄥˇ ㄧㄣ ㄌㄜˋ'],
+      ['後來就用這句話，形容說話的對象根本聽不進去。', 'ㄏㄡˋ ㄌㄞˊ ㄐㄧㄡˋ ㄩㄥˋ ㄓㄜˋ ㄐㄩˋ ㄏㄨㄚˋ ㄒㄧㄥˊ ㄖㄨㄥˊ ㄕㄨㄛ ㄏㄨㄚˋ ㄉㄜ˙ ㄉㄨㄟˋ ㄒㄧㄤˋ ㄍㄣ ㄅㄣˇ ㄊㄧㄥ ㄅㄨˋ ㄐㄧㄣˋ ㄑㄩˋ']
+    ],
+    quote: ['對牛彈琴，非牛不聞，不合其耳也', 'ㄉㄨㄟˋ ㄋㄧㄡˊ ㄉㄢˋ ㄑㄧㄣˊ ㄈㄟ ㄋㄧㄡˊ ㄅㄨˋ ㄨㄣˊ ㄅㄨˋ ㄏㄜˊ ㄑㄧˊ ㄦˇ ㄧㄝˇ'],
+    quoteNote: ['對著牛彈琴，不是牛聽不到聲音，而是牛聽不懂琴聲的意思。', 'ㄉㄨㄟˋ ㄓㄜ˙ ㄋㄧㄡˊ ㄉㄢˋ ㄑㄧㄣˊ ㄅㄨˊ ㄕˋ ㄋㄧㄡˊ ㄊㄧㄥ ㄅㄨˊ ㄉㄠˋ ㄕㄥ ㄧㄣ ㄦˊ ㄕˋ ㄋㄧㄡˊ ㄊㄧㄥ ㄅㄨˋ ㄉㄨㄥˇ ㄑㄧㄣˊ ㄕㄥ ㄉㄜ˙ ㄧˋ ㄙ˙']
+  },
+  example: [
+    ['跟弟弟講數學公式，他完全沒反應，簡直是', 'ㄍㄣ ㄉㄧˋ ㄉㄧ˙ ㄐㄧㄤˇ ㄕㄨˋ ㄒㄩㄝˊ ㄍㄨㄥ ㄕˋ ㄊㄚ ㄨㄢˊ ㄑㄩㄢˊ ㄇㄟˊ ㄈㄢˇ ㄧㄥ ㄐㄧㄢˇ ㄓˊ ㄕˋ'],
+    ['對牛彈琴', 'ㄉㄨㄟˋ ㄋㄧㄡˊ ㄉㄢˋ ㄑㄧㄣˊ', true],
+    ['，白費力氣。', 'ㄅㄞˊ ㄈㄟˋ ㄌㄧˋ ㄑㄧˋ']
+  ],
+  syn: [['白費口舌', 'ㄅㄞˊ ㄈㄟˋ ㄎㄡˇ ㄕㄜˊ']],
+  ant: [['對症下藥', 'ㄉㄨㄟˋ ㄓㄥˋ ㄒㄧㄚˋ ㄧㄠˋ']],
+  quiz: {
+    before: ['教爺爺用手機自拍，講了半天他還是不會，真像', 'ㄐㄧㄠˋ ㄧㄝˊ ㄧㄝˊ ㄩㄥˋ ㄕㄡˇ ㄐㄧ ㄗˋ ㄆㄞ ㄐㄧㄤˇ ㄌㄜ˙ ㄅㄢˋ ㄊㄧㄢ ㄊㄚ ㄏㄞˊ ㄕˋ ㄅㄨˋ ㄏㄨㄟˋ ㄓㄣ ㄒㄧㄤˋ'],
+    after: ['。', ''],
+    options: ['對牛彈琴', '鶴立雞群'], answer: '對牛彈琴'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><circle cx="242" cy="26" r="12" fill="#FAC775"/><rect y="122" width="280" height="28" fill="#C0DD97"/>
+<ellipse cx="80" cy="112" rx="34" ry="18" fill="#B4B2A9"/><rect x="58" y="122" width="7" height="14" fill="#5F5E5A"/><rect x="96" y="122" width="7" height="14" fill="#5F5E5A"/>
+<circle cx="46" cy="98" r="14" fill="#B4B2A9"/><polygon points="36,88 32,76 42,86" fill="#B4B2A9"/><polygon points="52,88 58,76 48,86" fill="#B4B2A9"/><circle cx="41" cy="97" r="1.8" fill="#2C2C2A"/><circle cx="49" cy="97" r="1.8" fill="#2C2C2A"/>
+<polygon class="a-wag" points="112,104 126,100 126,110" fill="#B4B2A9" style="transform-origin:112px 104px"/>
+<rect x="150" y="96" width="6" height="26" fill="#EF9F27"/><polygon points="153,86 138,96 168,96" fill="#FAC775" stroke="#BA7517"/>
+<ellipse cx="153" cy="100" rx="10" ry="6" fill="#F5C4B3"/>
+<rect x="172" y="112" width="70" height="12" rx="2" fill="#993C1D"/>
+<path d="M180,114 V122 M192,114 V122 M204,114 V122 M216,114 V122 M228,114 V122" stroke="#FAC775" stroke-width="1.2"/>
+<circle class="a-bob" cx="230" cy="70" r="5" fill="none" stroke="#3D8B5E" stroke-width="2"/>
+<circle class="a-bob" cx="246" cy="58" r="4" fill="none" stroke="#3D8B5E" stroke-width="2" style="animation-delay:.4s"/>
+</svg>`
+},
+{
+  id: 'bei-gong-she-ying', cat: '動物',
+  word: ['杯弓蛇影', 'ㄅㄟ ㄍㄨㄥ ㄕㄜˊ ㄧㄥˇ'],
+  keys: [
+    { k: ['弓', 'ㄍㄨㄥ'], v: ['弓箭', 'ㄍㄨㄥ ㄐㄧㄢˋ'] },
+    { k: ['影', 'ㄧㄥˇ'], v: ['影子', 'ㄧㄥˇ ㄗ˙'] }
+  ],
+  meaning: ['比喻疑神疑鬼，自己嚇自己。', 'ㄅㄧˇ ㄩˋ ㄧˊ ㄕㄣˊ ㄧˊ ㄍㄨㄟˇ ㄗˋ ㄐㄧˇ ㄒㄧㄚˋ ㄗˋ ㄐㄧˇ'],
+  source: {
+    book: ['《晉書・樂廣傳》', 'ㄐㄧㄣˋ ㄕㄨ ㄌㄜˋ ㄍㄨㄤˇ ㄔㄨㄢˊ'],
+    story: [
+      ['樂廣請朋友喝酒，朋友看見酒杯裡有一條小蛇的影子，喝完酒後就生病了。', 'ㄌㄜˋ ㄍㄨㄤˇ ㄑㄧㄥˇ ㄆㄥˊ ㄧㄡˇ ㄏㄜ ㄐㄧㄡˇ ㄆㄥˊ ㄧㄡˇ ㄎㄢˋ ㄐㄧㄢˋ ㄐㄧㄡˇ ㄅㄟ ㄌㄧˇ ㄧㄡˇ ㄧ ㄊㄧㄠˊ ㄒㄧㄠˇ ㄕㄜˊ ㄉㄜ˙ ㄧㄥˇ ㄗ˙ ㄏㄜ ㄨㄢˊ ㄐㄧㄡˇ ㄏㄡˋ ㄐㄧㄡˋ ㄕㄥ ㄅㄧㄥˋ ㄌㄜ˙'],
+      ['樂廣發現，牆上掛著一把弓，弓的影子倒映在酒杯裡，看起來就像蛇。', 'ㄌㄜˋ ㄍㄨㄤˇ ㄈㄚ ㄒㄧㄢˋ ㄑㄧㄤˊ ㄕㄤˋ ㄍㄨㄚˋ ㄓㄨˋ ㄧ ㄅㄚˇ ㄍㄨㄥ ㄍㄨㄥ ㄉㄜ˙ ㄧㄥˇ ㄗ˙ ㄉㄠˋ ㄧㄥˋ ㄗㄞˋ ㄐㄧㄡˇ ㄅㄟ ㄌㄧˇ ㄎㄢˋ ㄑㄧˇ ㄌㄞˊ ㄐㄧㄡˋ ㄒㄧㄤˋ ㄕㄜˊ'],
+      ['他把弓拿下來再請朋友喝一次酒，朋友知道真相後，病就好了。', 'ㄊㄚ ㄅㄚˇ ㄍㄨㄥ ㄋㄚˊ ㄒㄧㄚˋ ㄌㄞˊ ㄗㄞˋ ㄑㄧㄥˇ ㄆㄥˊ ㄧㄡˇ ㄏㄜ ㄧ ㄘˋ ㄐㄧㄡˇ ㄆㄥˊ ㄧㄡˇ ㄓ ㄉㄠˋ ㄓㄣ ㄒㄧㄤˋ ㄏㄡˋ ㄅㄧㄥˋ ㄐㄧㄡˋ ㄏㄠˇ ㄌㄜ˙']
+    ],
+    quote: ['杯中蛇影', 'ㄅㄟ ㄓㄨㄥ ㄕㄜˊ ㄧㄥˇ'],
+    quoteNote: ['酒杯裡的蛇，其實只是弓的影子。', 'ㄐㄧㄡˇ ㄅㄟ ㄌㄧˇ ㄉㄜ˙ ㄕㄜˊ ㄑㄧˊ ㄕˊ ㄓˇ ㄕˋ ㄍㄨㄥ ㄉㄜ˙ ㄧㄥˇ ㄗ˙']
+  },
+  example: [
+    ['自從看了鬼片，他晚上一直覺得房間有怪聲，根本是', 'ㄗˋ ㄘㄨㄥˊ ㄎㄢˋ ㄌㄜ˙ ㄍㄨㄟˇ ㄆㄧㄢˋ ㄊㄚ ㄨㄢˇ ㄕㄤˋ ㄧˋ ㄓˊ ㄐㄩㄝˊ ㄉㄜˊ ㄈㄤˊ ㄐㄧㄢ ㄧㄡˇ ㄍㄨㄞˋ ㄕㄥ ㄍㄣ ㄅㄣˇ ㄕˋ'],
+    ['杯弓蛇影', 'ㄅㄟ ㄍㄨㄥ ㄕㄜˊ ㄧㄥˇ', true],
+    ['，嚇自己。', 'ㄒㄧㄚˋ ㄗˋ ㄐㄧˇ']
+  ],
+  syn: [['疑神疑鬼', 'ㄧˊ ㄕㄣˊ ㄧˊ ㄍㄨㄟˇ']],
+  ant: [['處變不驚', 'ㄔㄨˋ ㄅㄧㄢˋ ㄅㄨˋ ㄐㄧㄥ']],
+  quiz: {
+    before: ['她以為手機不見了緊張半天，結果是放在口袋裡，真是', 'ㄊㄚ ㄧˇ ㄨㄟˋ ㄕㄡˇ ㄐㄧ ㄅㄨˋ ㄐㄧㄢˋ ㄌㄜ˙ ㄐㄧㄣˇ ㄓㄤ ㄅㄢˋ ㄊㄧㄢ ㄐㄧㄝˊ ㄍㄨㄛˇ ㄕˋ ㄈㄤˋ ㄗㄞˋ ㄎㄡˇ ㄉㄞˋ ㄌㄧˇ ㄓㄣ ㄕˋ'],
+    after: ['。', ''],
+    options: ['杯弓蛇影', '完璧歸趙'], answer: '杯弓蛇影'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#D3D1C7"/>
+<path d="M190,20 Q230,10 226,60" stroke="#854F0B" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M190,20 L226,60" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="2 2"/>
+<rect x="80" y="118" width="120" height="10" rx="2" fill="#993C1D"/><rect x="88" y="108" width="6" height="14" fill="#5F5E5A"/><rect x="188" y="108" width="6" height="14" fill="#5F5E5A"/>
+<path d="M126,118 Q124,90 140,90 Q156,90 154,118Z" fill="#EAF3EA" stroke="#B4B2A9"/>
+<path class="a-wag" d="M132,110 q6,-14 16,0 q-8,4 -16,0Z" fill="#639922" opacity=".8" style="transform-origin:140px 104px"/>
+<circle cx="136" cy="106" r="1.6" fill="#2C2C2A"/>
+<ellipse cx="60" cy="106" rx="16" ry="18" fill="#F5C4B3"/><path d="M46,98 Q60,82 74,98 Q68,90 60,91 Q52,90 46,98Z" fill="#2C2C2A"/>
+<circle class="a-blink" cx="55" cy="104" r="1.8" fill="#2C2C2A"/><circle class="a-blink" cx="65" cy="104" r="1.8" fill="#2C2C2A"/>
+<path d="M50,116 Q60,122 70,116" stroke="#D85A30" stroke-width="1.5" fill="none"/>
+</svg>`
+},
+{
+  id: 'he-li-ji-qun', cat: '動物',
+  word: ['鶴立雞群', 'ㄏㄜˋ ㄌㄧˋ ㄐㄧ ㄑㄩㄣˊ'],
+  keys: [
+    { k: ['鶴', 'ㄏㄜˋ'], v: ['鶴鳥，體型高大', 'ㄏㄜˋ ㄋㄧㄠˇ ㄊㄧˇ ㄒㄧㄥˊ ㄍㄠ ㄉㄚˋ'] },
+    { k: ['群', 'ㄑㄩㄣˊ'], v: ['一群', 'ㄧ ㄑㄩㄣˊ'] }
+  ],
+  meaning: ['比喻一個人的才能或儀態特別出眾，超出眾人。', 'ㄅㄧˇ ㄩˋ ㄧ ㄍㄜˋ ㄖㄣˊ ㄉㄜ˙ ㄘㄞˊ ㄋㄥˊ ㄏㄨㄛˋ ㄧˊ ㄊㄞˋ ㄊㄜˋ ㄅㄧㄝˊ ㄔㄨ ㄓㄨㄥˋ ㄔㄠ ㄔㄨ ㄓㄨㄥˋ ㄖㄣˊ'],
+  source: {
+    book: ['《世說新語・容止》', 'ㄕˋ ㄕㄨㄛ ㄒㄧㄣ ㄩˇ ㄖㄨㄥˊ ㄓˇ'],
+    story: [
+      ['晉朝有位叫嵇紹的人，長得英挺出眾，很有氣度。', 'ㄐㄧㄣˋ ㄔㄠˊ ㄧㄡˇ ㄨㄟˋ ㄐㄧㄠˋ ㄐㄧ ㄕㄠˋ ㄉㄜ˙ ㄖㄣˊ ㄓㄤˇ ㄉㄜ˙ ㄧㄥ ㄊㄧㄥˇ ㄔㄨ ㄓㄨㄥˋ ㄏㄣˇ ㄧㄡˇ ㄑㄧˋ ㄉㄨˋ'],
+      ['有人形容他站在人群裡，就像一隻鶴站在一群雞當中，特別顯眼。', 'ㄧㄡˇ ㄖㄣˊ ㄒㄧㄥˊ ㄖㄨㄥˊ ㄊㄚ ㄓㄢˋ ㄗㄞˋ ㄖㄣˊ ㄑㄩㄣˊ ㄌㄧˇ ㄐㄧㄡˋ ㄒㄧㄤˋ ㄧ ㄓ ㄏㄜˋ ㄓㄢˋ ㄗㄞˋ ㄧ ㄑㄩㄣˊ ㄐㄧ ㄉㄤ ㄓㄨㄥ ㄊㄜˋ ㄅㄧㄝˊ ㄒㄧㄢˇ ㄧㄢˇ'],
+      ['後來大家就用「鶴立雞群」，形容一個人特別突出。', 'ㄏㄡˋ ㄌㄞˊ ㄉㄚˋ ㄐㄧㄚ ㄐㄧㄡˋ ㄩㄥˋ ㄏㄜˋ ㄌㄧˋ ㄐㄧ ㄑㄩㄣˊ ㄒㄧㄥˊ ㄖㄨㄥˊ ㄧ ㄍㄜˋ ㄖㄣˊ ㄊㄜˋ ㄅㄧㄝˊ ㄊㄨ ㄔㄨ']
+    ],
+    quote: ['昂昂然如野鶴之在雞群', 'ㄤˊ ㄤˊ ㄖㄢˊ ㄖㄨˊ ㄧㄝˇ ㄏㄜˋ ㄓ ㄗㄞˋ ㄐㄧ ㄑㄩㄣˊ'],
+    quoteNote: ['他氣宇軒昂的樣子，就像野鶴站在雞群裡一樣。', 'ㄊㄚ ㄑㄧˋ ㄩˇ ㄒㄩㄢ ㄤˊ ㄉㄜ˙ ㄧㄤˋ ㄗ˙ ㄐㄧㄡˋ ㄒㄧㄤˋ ㄧㄝˇ ㄏㄜˋ ㄓㄢˋ ㄗㄞˋ ㄐㄧ ㄑㄩㄣˊ ㄌㄧˇ ㄧ ㄧㄤˋ']
+  },
+  example: [
+    ['她的舞蹈跳得特別好，站在隊伍中', 'ㄊㄚ ㄉㄜ˙ ㄨˇ ㄉㄠˇ ㄊㄧㄠˋ ㄉㄜ˙ ㄊㄜˋ ㄅㄧㄝˊ ㄏㄠˇ ㄓㄢˋ ㄗㄞˋ ㄉㄨㄟˋ ㄨˇ ㄓㄨㄥ'],
+    ['鶴立雞群', 'ㄏㄜˋ ㄌㄧˋ ㄐㄧ ㄑㄩㄣˊ', true],
+    ['，一眼就被看見。', 'ㄧ ㄧㄢˇ ㄐㄧㄡˋ ㄅㄟˋ ㄎㄢˋ ㄐㄧㄢˋ']
+  ],
+  syn: [['出類拔萃', 'ㄔㄨ ㄌㄟˋ ㄅㄚˊ ㄘㄨㄟˋ']],
+  ant: [['其貌不揚', 'ㄑㄧˊ ㄇㄠˋ ㄅㄨˋ ㄧㄤˊ']],
+  quiz: {
+    before: ['他身高一百九十公分，走在班上同學裡', 'ㄊㄚ ㄕㄣ ㄍㄠ ㄧˋ ㄅㄞˇ ㄐㄧㄡˇ ㄕˊ ㄍㄨㄥ ㄈㄣ ㄗㄡˇ ㄗㄞˋ ㄅㄢ ㄕㄤˋ ㄊㄨㄥˊ ㄒㄩㄝˊ ㄌㄧˇ'],
+    after: ['，非常好認。', 'ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄖㄣˋ'],
+    options: ['鶴立雞群', '杯弓蛇影'], answer: '鶴立雞群'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="120" width="280" height="30" fill="#C0DD97"/>
+<g class="a-bob" style="transform-origin:170px 60px">
+<path d="M170,120 V78" stroke="#EAF3EA" stroke-width="5" stroke-linecap="round"/>
+<path d="M170,80 Q168,55 190,48" stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round"/>
+<ellipse cx="150" cy="86" rx="20" ry="14" fill="#FFFFFF" stroke="#D3D1C7"/>
+<circle cx="194" cy="46" r="9" fill="#FFFFFF" stroke="#D3D1C7"/>
+<polygon points="202,44 214,47 202,50" fill="#D85A30"/>
+<circle cx="197" cy="43" r="1.6" fill="#2C2C2A"/>
+<path d="M192,38 Q194,32 198,38" stroke="#D85A30" stroke-width="1.5" fill="none"/>
+</g>
+<g><ellipse cx="66" cy="126" rx="15" ry="10" fill="#BA7517"/><circle cx="62" cy="114" r="7" fill="#BA7517"/><polygon points="68,110 78,112 68,116" fill="#D85A30"/><polygon points="56,105 60,97 64,107" fill="#D85A30"/><circle cx="65" cy="112" r="1.5" fill="#2C2C2A"/><rect x="59" y="134" width="4" height="7" fill="#993C1D"/><rect x="71" y="134" width="4" height="7" fill="#993C1D"/></g>
+<g><ellipse cx="106" cy="130" rx="13" ry="9" fill="#EF9F27"/><circle cx="102" cy="119" r="6" fill="#EF9F27"/><polygon points="107,116 116,118 107,121" fill="#D85A30"/><polygon points="97,111 100,104 104,113" fill="#D85A30"/><circle cx="105" cy="117" r="1.4" fill="#2C2C2A"/><rect x="99" y="137" width="4" height="6" fill="#854F0B"/><rect x="109" y="137" width="4" height="6" fill="#854F0B"/></g>
+<g><ellipse cx="222" cy="128" rx="12" ry="8" fill="#993C1D"/><circle cx="218" cy="118" r="5.5" fill="#993C1D"/><polygon points="222,115 230,117 222,120" fill="#D85A30"/><circle cx="221" cy="117" r="1.3" fill="#2C2C2A"/><rect x="215" y="135" width="4" height="6" fill="#5F5E5A"/><rect x="224" y="135" width="4" height="6" fill="#5F5E5A"/></g>
+</svg>`
+},
+{
+  id: 'wan-bi-gui-zhao', cat: '歷史故事',
+  word: ['完璧歸趙', 'ㄨㄢˊ ㄅㄧˋ ㄍㄨㄟ ㄓㄠˋ'],
+  keys: [
+    { k: ['璧', 'ㄅㄧˋ'], v: ['圓形的玉', 'ㄩㄢˊ ㄒㄧㄥˊ ㄉㄜ˙ ㄩˋ'] },
+    { k: ['歸', 'ㄍㄨㄟ'], v: ['歸還', 'ㄍㄨㄟ ㄏㄞˊ'] }
+  ],
+  meaning: ['比喻把原本的東西完好地歸還給原來的主人。', 'ㄅㄧˇ ㄩˋ ㄅㄚˇ ㄩㄢˊ ㄅㄣˇ ㄉㄜ˙ ㄉㄨㄥ ㄒㄧ ㄨㄢˊ ㄏㄠˇ ㄉㄜ˙ ㄍㄨㄟ ㄏㄞˊ ㄍㄟˇ ㄩㄢˊ ㄌㄞˊ ㄉㄜ˙ ㄓㄨˇ ㄖㄣˊ'],
+  source: {
+    book: ['《史記・廉頗藺相如列傳》', 'ㄕˇ ㄐㄧˋ ㄌㄧㄢˊ ㄆㄛ ㄌㄧㄣˋ ㄒㄧㄤ ㄖㄨˊ ㄌㄧㄝˋ ㄔㄨㄢˊ'],
+    story: [
+      ['趙王有一塊珍貴的和氏璧，秦王假裝要用城池交換，其實想騙走玉璧。', 'ㄓㄠˋ ㄨㄤˊ ㄧㄡˇ ㄧ ㄎㄨㄞˋ ㄓㄣ ㄍㄨㄟˋ ㄉㄜ˙ ㄏㄜˊ ㄕˋ ㄅㄧˋ ㄑㄧㄣˊ ㄨㄤˊ ㄐㄧㄚˇ ㄓㄨㄤ ㄧㄠˋ ㄩㄥˋ ㄔㄥˊ ㄔˊ ㄐㄧㄠ ㄏㄨㄢˋ ㄑㄧˊ ㄕˊ ㄒㄧㄤˇ ㄆㄧㄢˋ ㄗㄡˇ ㄩˋ ㄅㄧˋ'],
+      ['藺相如帶著玉璧出使秦國，發現秦王沒有誠意，就想辦法把玉璧偷偷送回趙國。', 'ㄌㄧㄣˋ ㄒㄧㄤ ㄖㄨˊ ㄉㄞˋ ㄓㄜ˙ ㄩˋ ㄅㄧˋ ㄔㄨ ㄕˇ ㄑㄧㄣˊ ㄍㄨㄛˊ ㄈㄚ ㄒㄧㄢˋ ㄑㄧㄣˊ ㄨㄤˊ ㄇㄟˊ ㄧㄡˇ ㄔㄥˊ ㄧˋ ㄐㄧㄡˋ ㄒㄧㄤˇ ㄅㄢˋ ㄈㄚˇ ㄅㄚˇ ㄩˋ ㄅㄧˋ ㄊㄡ ㄊㄡ ㄙㄨㄥˋ ㄏㄨㄟˊ ㄓㄠˋ ㄍㄨㄛˊ'],
+      ['最後他憑著智慧和勇氣，成功讓玉璧完整地回到趙國。', 'ㄗㄨㄟˋ ㄏㄡˋ ㄊㄚ ㄆㄧㄥˊ ㄓㄜ˙ ㄓˋ ㄏㄨㄟˋ ㄏㄜˊ ㄩㄥˇ ㄑㄧˋ ㄔㄥˊ ㄍㄨㄥ ㄖㄤˋ ㄩˋ ㄅㄧˋ ㄨㄢˊ ㄓㄥˇ ㄉㄜ˙ ㄏㄨㄟˊ ㄉㄠˋ ㄓㄠˋ ㄍㄨㄛˊ']
+    ],
+    quote: ['臣請完璧歸趙', 'ㄔㄣˊ ㄑㄧㄥˇ ㄨㄢˊ ㄅㄧˋ ㄍㄨㄟ ㄓㄠˋ'],
+    quoteNote: ['我請求把玉璧完整地送回趙國。', 'ㄨㄛˇ ㄑㄧㄥˇ ㄑㄧㄡˊ ㄅㄚˇ ㄩˋ ㄅㄧˋ ㄨㄢˊ ㄓㄥˇ ㄉㄜ˙ ㄙㄨㄥˋ ㄏㄨㄟˊ ㄓㄠˋ ㄍㄨㄛˊ']
+  },
+  example: [
+    ['同學借的課本被小心保護，還書時', 'ㄊㄨㄥˊ ㄒㄩㄝˊ ㄐㄧㄝˋ ㄉㄜ˙ ㄎㄜˋ ㄅㄣˇ ㄅㄟˋ ㄒㄧㄠˇ ㄒㄧㄣ ㄅㄠˇ ㄏㄨˋ ㄏㄞˊ ㄕㄨ ㄕˊ'],
+    ['完璧歸趙', 'ㄨㄢˊ ㄅㄧˋ ㄍㄨㄟ ㄓㄠˋ', true],
+    ['，一點也沒有損壞。', 'ㄧ ㄉㄧㄢˇ ㄧㄝˇ ㄇㄟˊ ㄧㄡˇ ㄙㄨㄣˇ ㄏㄨㄞˋ']
+  ],
+  syn: [['物歸原主', 'ㄨˋ ㄍㄨㄟ ㄩㄢˊ ㄓㄨˇ']],
+  ant: [['據為己有', 'ㄐㄩˋ ㄨㄟˋ ㄐㄧˇ ㄧㄡˇ']],
+  quiz: {
+    before: ['借來的腳踏車他每天擦拭保養，歸還時', 'ㄐㄧㄝˋ ㄌㄞˊ ㄉㄜ˙ ㄐㄧㄠˇ ㄊㄚˋ ㄔㄜ ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄘㄚ ㄕˋ ㄅㄠˇ ㄧㄤˇ ㄍㄨㄟ ㄏㄞˊ ㄕˊ'],
+    after: ['，跟新的一樣。', 'ㄍㄣ ㄒㄧㄣ ㄉㄜ˙ ㄧ ㄧㄤˋ'],
+    options: ['完璧歸趙', '紙上談兵'], answer: '完璧歸趙'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="128" width="280" height="22" fill="#C9A27A"/>
+<polygon points="180,150 200,64 220,64 240,150" fill="#BA7517" stroke="#633806" stroke-width="1.5"/><rect x="196" y="76" width="28" height="10" fill="#854F0B"/><rect x="196" y="98" width="28" height="6" fill="#993C1D"/>
+<ellipse cx="90" cy="100" rx="16" ry="18" fill="#F5C4B3"/><path d="M76,92 Q90,76 104,92 Q98,84 90,85 Q82,84 76,92Z" fill="#2C2C2A"/>
+<rect x="70" y="112" width="40" height="28" fill="#3D8B5E"/>
+<circle class="a-glow" cx="130" cy="104" r="13" fill="none" stroke="#4FB3E8" stroke-width="4"/>
+<circle cx="130" cy="104" r="13" fill="#EAF3EA" stroke="#3D8B5E" stroke-width="2.5"/><circle cx="130" cy="104" r="5" fill="#FBF3E4" stroke="#3D8B5E" stroke-width="1.5"/>
+<path d="M108,110 Q118,108 128,106" stroke="#F5C4B3" stroke-width="6" stroke-linecap="round"/>
+</svg>`
+},
+{
+  id: 'zhi-shang-tan-bing', cat: '歷史故事',
+  word: ['紙上談兵', 'ㄓˇ ㄕㄤˋ ㄊㄢˊ ㄅㄧㄥ'],
+  keys: [
+    { k: ['談', 'ㄊㄢˊ'], v: ['談論', 'ㄊㄢˊ ㄌㄨㄣˋ'] },
+    { k: ['兵', 'ㄅㄧㄥ'], v: ['用兵作戰', 'ㄩㄥˋ ㄅㄧㄥ ㄗㄨㄛˋ ㄓㄢˋ'] }
+  ],
+  meaning: ['比喻只會空談理論，卻沒有實際的能力。', 'ㄅㄧˇ ㄩˋ ㄓˇ ㄏㄨㄟˋ ㄎㄨㄥ ㄊㄢˊ ㄌㄧˇ ㄌㄨㄣˋ ㄑㄩㄝˋ ㄇㄟˊ ㄧㄡˇ ㄕˊ ㄐㄧˋ ㄉㄜ˙ ㄋㄥˊ ㄌㄧˋ'],
+  source: {
+    book: ['《史記・廉頗藺相如列傳》', 'ㄕˇ ㄐㄧˋ ㄌㄧㄢˊ ㄆㄛ ㄌㄧㄣˋ ㄒㄧㄤ ㄖㄨˊ ㄌㄧㄝˋ ㄔㄨㄢˊ'],
+    story: [
+      ['趙國名將趙奢的兒子趙括，從小熟讀兵書，講起打仗的道理頭頭是道。', 'ㄓㄠˋ ㄍㄨㄛˊ ㄇㄧㄥˊ ㄐㄧㄤ ㄓㄠˋ ㄕㄜ ㄉㄜ˙ ㄦˊ ㄗ˙ ㄓㄠˋ ㄎㄨㄛˋ ㄘㄨㄥˊ ㄒㄧㄠˇ ㄕㄨˊ ㄉㄨˊ ㄅㄧㄥ ㄕㄨ ㄐㄧㄤˇ ㄑㄧˇ ㄉㄚˇ ㄓㄤˋ ㄉㄜ˙ ㄉㄠˋ ㄌㄧˇ ㄊㄡˊ ㄊㄡˊ ㄕˋ ㄉㄠˋ'],
+      ['趙王讓趙括領兵作戰，結果他完全不懂得臨場應變，被秦軍打得大敗。', 'ㄓㄠˋ ㄨㄤˊ ㄖㄤˋ ㄓㄠˋ ㄎㄨㄛˋ ㄌㄧㄥˇ ㄅㄧㄥ ㄗㄨㄛˋ ㄓㄢˋ ㄐㄧㄝˊ ㄍㄨㄛˇ ㄊㄚ ㄨㄢˊ ㄑㄩㄢˊ ㄅㄨˋ ㄉㄨㄥˇ ㄉㄜ˙ ㄌㄧㄣˊ ㄔㄤˇ ㄧㄥ ㄅㄧㄢˋ ㄅㄟˋ ㄑㄧㄣˊ ㄐㄩㄣ ㄉㄚˇ ㄉㄜ˙ ㄉㄚˋ ㄅㄞˋ'],
+      ['趙括只會照書本上的理論說話，一遇到真正的戰場就沒有用了。', 'ㄓㄠˋ ㄎㄨㄛˋ ㄓˇ ㄏㄨㄟˋ ㄓㄠˋ ㄕㄨ ㄅㄣˇ ㄕㄤˋ ㄉㄜ˙ ㄌㄧˇ ㄌㄨㄣˋ ㄕㄨㄛ ㄏㄨㄚˋ ㄧ ㄩˋ ㄉㄠˋ ㄓㄣ ㄓㄥˋ ㄉㄜ˙ ㄓㄢˋ ㄔㄤˇ ㄐㄧㄡˋ ㄇㄟˊ ㄧㄡˇ ㄩㄥˋ ㄌㄜ˙']
+    ],
+    quote: ['徒能讀其父書傳，不知合變', 'ㄊㄨˊ ㄋㄥˊ ㄉㄨˊ ㄑㄧˊ ㄈㄨˋ ㄕㄨ ㄔㄨㄢˊ ㄅㄨˋ ㄓ ㄏㄜˊ ㄅㄧㄢˋ'],
+    quoteNote: ['他只會讀他父親留下的兵書，卻不懂得隨機應變。', 'ㄊㄚ ㄓˇ ㄏㄨㄟˋ ㄉㄨˊ ㄊㄚ ㄈㄨˋ ㄑㄧㄣ ㄌㄧㄡˊ ㄒㄧㄚˋ ㄉㄜ˙ ㄅㄧㄥ ㄕㄨ ㄑㄩㄝˋ ㄅㄨˋ ㄉㄨㄥˇ ㄉㄜ˙ ㄙㄨㄟˊ ㄐㄧ ㄧㄥ ㄅㄧㄢˋ']
+  },
+  example: [
+    ['他把減肥方法講得頭頭是道，自己卻從來不運動，根本是', 'ㄊㄚ ㄅㄚˇ ㄐㄧㄢˇ ㄈㄟˊ ㄈㄤ ㄈㄚˇ ㄐㄧㄤˇ ㄉㄜ˙ ㄊㄡˊ ㄊㄡˊ ㄕˋ ㄉㄠˋ ㄗˋ ㄐㄧˇ ㄑㄩㄝˋ ㄘㄨㄥˊ ㄌㄞˊ ㄅㄨˋ ㄩㄣˋ ㄉㄨㄥˋ ㄍㄣ ㄅㄣˇ ㄕˋ'],
+    ['紙上談兵', 'ㄓˇ ㄕㄤˋ ㄊㄢˊ ㄅㄧㄥ', true],
+    ['。', '']
+  ],
+  syn: [['坐而論道', 'ㄗㄨㄛˋ ㄦˊ ㄌㄨㄣˋ ㄉㄠˋ']],
+  ant: [['身體力行', 'ㄕㄣ ㄊㄧˇ ㄌㄧˋ ㄒㄧㄥˊ']],
+  quiz: {
+    before: ['計畫寫得再完美，如果不去實踐，也只是', 'ㄐㄧˋ ㄏㄨㄚˋ ㄒㄧㄝˇ ㄉㄜ˙ ㄗㄞˋ ㄨㄢˊ ㄇㄟˇ ㄖㄨˊ ㄍㄨㄛˇ ㄅㄨˋ ㄑㄩˋ ㄕˊ ㄐㄧㄢˋ ㄧㄝˇ ㄓˇ ㄕˋ'],
+    after: ['。', ''],
+    options: ['紙上談兵', '完璧歸趙'], answer: '紙上談兵'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#C0DD97"/>
+<rect x="40" y="80" width="200" height="50" rx="4" fill="#F1EFE8" stroke="#D3D1C7"/>
+<path d="M56,92 H120 M56,102 H150 M56,112 H130 M56,122 H160" stroke="#B4B2A9" stroke-width="2"/>
+<polygon points="180,96 196,88 196,104" fill="#D6333A" opacity=".8"/><polygon points="200,120 216,112 216,128" fill="#3D8B5E" opacity=".7"/>
+<ellipse cx="150" cy="60" rx="13" ry="15" fill="#F5C4B3"/><path d="M137,52 Q150,38 163,52 Q156,44 150,45 Q144,44 137,52Z" fill="#2C2C2A"/>
+<rect x="132" y="72" width="36" height="26" fill="#4FB3E8"/>
+<g class="a-wag" style="transform-origin:168px 74px"><rect x="168" y="60" width="3" height="20" fill="#5F5E5A"/><polygon points="171,60 190,66 171,72" fill="#D6333A"/></g>
+<circle cx="145" cy="56" r="1.6" fill="#2C2C2A"/><circle cx="153" cy="56" r="1.6" fill="#2C2C2A"/>
+</svg>`
+},
+{
+  id: 'sai-weng-shi-ma', cat: '歷史寓言',
+  word: ['塞翁失馬', 'ㄙㄞ ㄨㄥ ㄕ ㄇㄚˇ'],
+  keys: [
+    { k: ['塞', 'ㄙㄞ'], v: ['邊塞', 'ㄅㄧㄢ ㄙㄞ'] },
+    { k: ['翁', 'ㄨㄥ'], v: ['老人', 'ㄌㄠˇ ㄖㄣˊ'] }
+  ],
+  meaning: ['比喻一時的損失，也許將來反而會帶來好處。', 'ㄅㄧˇ ㄩˋ ㄧ ㄕˊ ㄉㄜ˙ ㄙㄨㄣˇ ㄕ ㄧㄝˇ ㄒㄩˇ ㄐㄧㄤ ㄌㄞˊ ㄈㄢˇ ㄦˊ ㄏㄨㄟˋ ㄉㄞˋ ㄌㄞˊ ㄏㄠˇ ㄔㄨˋ'],
+  source: {
+    book: ['《淮南子・人間訓》', 'ㄏㄨㄞˊ ㄋㄢˊ ㄗ˙ ㄖㄣˊ ㄐㄧㄢ ㄒㄩㄣˋ'],
+    story: [
+      ['邊塞有位老人，他的馬跑丟了，鄰居都來安慰他，他卻說：「這也許是好事。」', 'ㄅㄧㄢ ㄙㄞ ㄧㄡˇ ㄨㄟˋ ㄌㄠˇ ㄖㄣˊ ㄊㄚ ㄉㄜ˙ ㄇㄚˇ ㄆㄠˇ ㄉㄧㄡ ㄌㄜ˙ ㄌㄧㄣˊ ㄐㄩ ㄉㄡ ㄌㄞˊ ㄢ ㄨㄟˋ ㄊㄚ ㄊㄚ ㄑㄩㄝˋ ㄕㄨㄛ ㄓㄜˋ ㄧㄝˇ ㄒㄩˇ ㄕˋ ㄏㄠˇ ㄕˋ'],
+      ['不久，那匹馬帶著一群野馬回來了，鄰居又來恭喜他，他卻說：「這也許是壞事。」', 'ㄅㄨˋ ㄐㄧㄡˇ ㄋㄚˋ ㄆㄧˇ ㄇㄚˇ ㄉㄞˋ ㄓㄜ˙ ㄧ ㄑㄩㄣˊ ㄧㄝˇ ㄇㄚˇ ㄏㄨㄟˊ ㄌㄞˊ ㄌㄜ˙ ㄌㄧㄣˊ ㄐㄩ ㄧㄡˋ ㄌㄞˊ ㄍㄨㄥ ㄒㄧˇ ㄊㄚ ㄊㄚ ㄑㄩㄝˋ ㄕㄨㄛ ㄓㄜˋ ㄧㄝˇ ㄒㄩˇ ㄕˋ ㄏㄨㄞˋ ㄕˋ'],
+      ['後來他兒子騎那匹野馬摔斷了腿，也因此躲過了戰爭的徵召，保住了性命。', 'ㄏㄡˋ ㄌㄞˊ ㄊㄚ ㄦˊ ㄗ˙ ㄑㄧˊ ㄋㄚˋ ㄆㄧˇ ㄧㄝˇ ㄇㄚˇ ㄕㄨㄞ ㄉㄨㄢˋ ㄌㄜ˙ ㄊㄨㄟˇ ㄧㄝˇ ㄧㄣ ㄘˇ ㄉㄨㄛˇ ㄍㄨㄛˋ ㄌㄜ˙ ㄓㄢˋ ㄓㄥ ㄉㄜ˙ ㄓㄥ ㄓㄠˋ ㄅㄠˇ ㄓㄨˋ ㄌㄜ˙ ㄒㄧㄥˋ ㄇㄧㄥˋ']
+    ],
+    quote: ['禍兮福之所倚，福兮禍之所伏', 'ㄏㄨㄛˋ ㄒㄧ ㄈㄨˊ ㄓ ㄙㄨㄛˇ ㄧˇ ㄈㄨˊ ㄒㄧ ㄏㄨㄛˋ ㄓ ㄙㄨㄛˇ ㄈㄨˊ'],
+    quoteNote: ['壞事裡可能藏著好事，好事裡也可能藏著壞事。', 'ㄏㄨㄞˋ ㄕˋ ㄌㄧˇ ㄎㄜˇ ㄋㄥˊ ㄘㄤˊ ㄓㄜ˙ ㄏㄠˇ ㄕˋ ㄏㄠˇ ㄕˋ ㄌㄧˇ ㄧㄝˇ ㄎㄜˇ ㄋㄥˊ ㄘㄤˊ ㄓㄜ˙ ㄏㄨㄞˋ ㄕˋ']
+  },
+  example: [
+    ['他因為感冒沒去搭那班誤點的火車，真是', 'ㄊㄚ ㄧㄣ ㄨㄟˋ ㄍㄢˇ ㄇㄠˋ ㄇㄟˊ ㄑㄩˋ ㄉㄚ ㄋㄚˋ ㄅㄢ ㄨˋ ㄉㄧㄢˇ ㄉㄜ˙ ㄏㄨㄛˇ ㄔㄜ ㄓㄣ ㄕˋ'],
+    ['塞翁失馬', 'ㄙㄞ ㄨㄥ ㄕ ㄇㄚˇ', true],
+    ['，焉知非福。', 'ㄧㄢ ㄓ ㄈㄟ ㄈㄨˊ']
+  ],
+  syn: [['因禍得福', 'ㄧㄣ ㄏㄨㄛˋ ㄉㄜˊ ㄈㄨˊ']],
+  ant: [['樂極生悲', 'ㄌㄜˋ ㄐㄧˊ ㄕㄥ ㄅㄟ']],
+  quiz: {
+    before: ['沒被選上球隊，他卻因此有更多時間讀書考上好成績，真是', 'ㄇㄟˊ ㄅㄟˋ ㄒㄩㄢˇ ㄕㄤˋ ㄑㄧㄡˊ ㄉㄨㄟˋ ㄊㄚ ㄑㄩㄝˋ ㄧㄣ ㄘˇ ㄧㄡˇ ㄍㄥˋ ㄉㄨㄛ ㄕˊ ㄐㄧㄢ ㄉㄨˊ ㄕㄨ ㄎㄠˇ ㄕㄤˋ ㄏㄠˇ ㄔㄥˊ ㄐㄧ ㄓㄣ ㄕˋ'],
+    after: ['。', ''],
+    options: ['塞翁失馬', '紙上談兵'], answer: '塞翁失馬'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><polygon points="0,110 60,50 120,110" fill="#97C459" opacity=".6"/><rect y="118" width="280" height="32" fill="#C0DD97"/>
+<rect x="40" y="118" width="10" height="26" fill="#854F0B"/><rect x="70" y="118" width="10" height="26" fill="#854F0B"/><rect x="100" y="118" width="10" height="26" fill="#854F0B"/><path d="M40,120 H110 M40,132 H110" stroke="#BA7517" stroke-width="3"/>
+<ellipse cx="70" cy="118" rx="22" ry="9" fill="#F5C4B3"/><circle cx="70" cy="104" r="10" fill="#F5C4B3"/><polygon points="56,98 70,86 84,98" fill="#4FB3E8" stroke="#0C447C"/>
+<circle cx="67" cy="103" r="1.6" fill="#2C2C2A"/><circle cx="73" cy="103" r="1.6" fill="#2C2C2A"/>
+<g class="a-bob" style="transform-origin:210px 122px">
+<rect x="184" y="118" width="6" height="20" fill="#993C1D"/><rect x="200" y="120" width="6" height="18" fill="#993C1D"/><rect x="218" y="120" width="6" height="18" fill="#993C1D"/><rect x="234" y="118" width="6" height="20" fill="#993C1D"/>
+<ellipse cx="212" cy="108" rx="32" ry="16" fill="#993C1D"/>
+<path d="M240,100 Q256,92 254,78 Q250,90 238,94" fill="#993C1D"/>
+<ellipse cx="250" cy="76" rx="8" ry="7" fill="#993C1D"/>
+<polygon points="245,70 249,62 252,71" fill="#993C1D"/>
+<circle cx="254" cy="74" r="1.6" fill="#2C2C2A"/>
+<path d="M244,68 Q252,58 260,66 Q254,64 250,70" fill="#633806"/>
+<path d="M182,102 Q168,96 172,84 Q178,94 188,98" fill="#633806"/>
+</g>
+</svg>`
+},
+{
+  id: 'yu-gong-yi-shan', cat: '歷史寓言',
+  word: ['愚公移山', 'ㄩˊ ㄍㄨㄥ ㄧˊ ㄕㄢ'],
+  keys: [
+    { k: ['愚公', 'ㄩˊ ㄍㄨㄥ'], v: ['故事裡的老人', 'ㄍㄨˋ ㄕˋ ㄌㄧˇ ㄉㄜ˙ ㄌㄠˇ ㄖㄣˊ'] },
+    { k: ['移', 'ㄧˊ'], v: ['搬移', 'ㄅㄢ ㄧˊ'] }
+  ],
+  meaning: ['比喻只要有恆心毅力，再困難的事也能完成。', 'ㄅㄧˇ ㄩˋ ㄓˇ ㄧㄠˋ ㄧㄡˇ ㄏㄥˊ ㄒㄧㄣ ㄧˋ ㄌㄧˋ ㄗㄞˋ ㄎㄨㄣˋ ㄋㄢˊ ㄉㄜ˙ ㄕˋ ㄧㄝˇ ㄋㄥˊ ㄨㄢˊ ㄔㄥˊ'],
+  source: {
+    book: ['《列子・湯問》', 'ㄌㄧㄝˋ ㄗ˙ ㄊㄤ ㄨㄣˋ'],
+    story: [
+      ['愚公家門前有兩座大山擋住去路，他決定帶著子孫一起把山鏟平。', 'ㄩˊ ㄍㄨㄥ ㄐㄧㄚ ㄇㄣˊ ㄑㄧㄢˊ ㄧㄡˇ ㄌㄧㄤˇ ㄗㄨㄛˋ ㄉㄚˋ ㄕㄢ ㄉㄤˇ ㄓㄨˋ ㄑㄩˋ ㄌㄨˋ ㄊㄚ ㄐㄩㄝˊ ㄉㄧㄥˋ ㄉㄞˋ ㄓㄨˋ ㄗ˙ ㄙㄨㄣ ㄧˋ ㄑㄧˇ ㄅㄚˇ ㄕㄢ ㄔㄢˇ ㄆㄧㄥˊ'],
+      ['鄰居嘲笑他年紀那麼大了，怎麼可能鏟平大山。', 'ㄌㄧㄣˊ ㄐㄩ ㄔㄠˊ ㄒㄧㄠˋ ㄊㄚ ㄋㄧㄢˊ ㄐㄧˋ ㄋㄚˋ ㄇㄜ˙ ㄉㄚˋ ㄌㄜ˙ ㄗㄣˇ ㄇㄜ˙ ㄎㄜˇ ㄋㄥˊ ㄔㄢˇ ㄆㄧㄥˊ ㄉㄚˋ ㄕㄢ'],
+      ['愚公說：「我死了還有兒子，兒子又有孫子，子子孫孫是鏟不完的，山卻不會再長高。」', 'ㄩˊ ㄍㄨㄥ ㄕㄨㄛ ㄨㄛˇ ㄙˇ ㄌㄜ˙ ㄏㄞˊ ㄧㄡˇ ㄦˊ ㄗ˙ ㄦˊ ㄗ˙ ㄧㄡˋ ㄧㄡˇ ㄙㄨㄣ ㄗ˙ ㄗ˙ ㄗ˙ ㄙㄨㄣ ㄙㄨㄣ ㄕˋ ㄔㄢˇ ㄅㄨˋ ㄨㄢˊ ㄉㄜ˙ ㄕㄢ ㄑㄩㄝˋ ㄅㄨˋ ㄏㄨㄟˋ ㄗㄞˋ ㄓㄤˇ ㄍㄠ'],
+      ['天帝被他的毅力感動，就派神仙把兩座山搬走了。', 'ㄊㄧㄢ ㄉㄧˋ ㄅㄟˋ ㄊㄚ ㄉㄜ˙ ㄧˋ ㄌㄧˋ ㄍㄢˇ ㄉㄨㄥˋ ㄐㄧㄡˋ ㄆㄞˋ ㄕㄣˊ ㄒㄧㄢ ㄅㄚˇ ㄌㄧㄤˇ ㄗㄨㄛˋ ㄕㄢ ㄅㄢ ㄗㄡˇ ㄌㄜ˙']
+    ],
+    quote: ['子子孫孫無窮匱也，而山不加增，何苦而不平？', 'ㄗ˙ ㄗ˙ ㄙㄨㄣ ㄙㄨㄣ ㄨˊ ㄑㄩㄥˊ ㄍㄨㄟˋ ㄧㄝˇ ㄦˊ ㄕㄢ ㄅㄨˋ ㄐㄧㄚ ㄗㄥ ㄏㄜˊ ㄎㄨˇ ㄦˊ ㄅㄨˋ ㄆㄧㄥˊ'],
+    quoteNote: ['子孫是沒有窮盡的，但是山不會再增高，為什麼會鏟不平呢？', 'ㄗ˙ ㄙㄨㄣ ㄕˋ ㄇㄟˊ ㄧㄡˇ ㄑㄩㄥˊ ㄐㄧㄣˇ ㄉㄜ˙ ㄉㄢˋ ㄕˋ ㄕㄢ ㄅㄨˋ ㄏㄨㄟˋ ㄗㄞˋ ㄗㄥ ㄍㄠ ㄨㄟˋ ㄕㄣˊ ㄇㄜ˙ ㄏㄨㄟˋ ㄔㄢˇ ㄅㄨˋ ㄆㄧㄥˊ ㄋㄜ˙']
+  },
+  example: [
+    ['他每天練習寫十個大字，三年下來字進步很多，這就是', 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄌㄧㄢˋ ㄒㄧˊ ㄒㄧㄝˇ ㄕˊ ㄍㄜˋ ㄉㄚˋ ㄗˋ ㄙㄢ ㄋㄧㄢˊ ㄒㄧㄚˋ ㄌㄞˊ ㄗˋ ㄐㄧㄣˋ ㄅㄨˋ ㄏㄣˇ ㄉㄨㄛ ㄓㄜˋ ㄐㄧㄡˋ ㄕˋ'],
+    ['愚公移山', 'ㄩˊ ㄍㄨㄥ ㄧˊ ㄕㄢ', true],
+    ['的精神。', 'ㄉㄜ˙ ㄐㄧㄥ ㄕㄣˊ']
+  ],
+  syn: [['持之以恆', 'ㄔˊ ㄓ ㄧˇ ㄏㄥˊ']],
+  ant: [['半途而廢', 'ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ']],
+  quiz: {
+    before: ['阿嬤每天種一點菜，十年後整片荒地變成菜園，靠的正是', 'ㄚ ㄇㄚ ㄇㄟˇ ㄊㄧㄢ ㄓㄨㄥˇ ㄧ ㄉㄧㄢˇ ㄘㄞˋ ㄕˊ ㄋㄧㄢˊ ㄏㄡˋ ㄓㄥˇ ㄆㄧㄢˋ ㄏㄨㄤ ㄉㄧˋ ㄅㄧㄢˋ ㄔㄥˊ ㄘㄞˋ ㄩㄢˊ ㄎㄠˋ ㄉㄜ˙ ㄓㄥˋ ㄕˋ'],
+    after: ['的精神。', 'ㄉㄜ˙ ㄐㄧㄥ ㄕㄣˊ'],
+    options: ['愚公移山', '塞翁失馬'], answer: '愚公移山'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><circle cx="40" cy="28" r="12" fill="#FAC775"/>
+<polygon points="120,150 190,40 260,150" fill="#97C459"/><polygon points="150,150 200,60 250,150" fill="#639922"/>
+<rect y="140" width="280" height="10" fill="#C9A27A"/>
+<ellipse cx="60" cy="140" rx="22" ry="6" fill="#8A6A45"/>
+<circle cx="60" cy="108" r="10" fill="#F5C4B3"/><polygon points="48,102 60,92 72,102" fill="#EF9F27"/>
+<rect x="52" y="118" width="16" height="20" fill="#4FB3E8"/>
+<g class="a-wag" style="transform-origin:70px 120px"><rect x="70" y="110" width="4" height="30" fill="#854F0B"/><ellipse cx="72" cy="108" rx="8" ry="3" fill="#B4B2A9"/></g>
+<circle class="a-bubble" cx="42" cy="128" r="2" fill="#B4B2A9"/><circle class="a-bubble" cx="36" cy="132" r="1.6" fill="#B4B2A9" style="animation-delay:.5s"/>
+</svg>`
+},
+{
+  id: 'hua-long-dian-jing', cat: '藝術故事',
+  word: ['畫龍點睛', 'ㄏㄨㄚˋ ㄌㄨㄥˊ ㄉㄧㄢˇ ㄐㄧㄥ'],
+  keys: [
+    { k: ['點', 'ㄉㄧㄢˇ'], v: ['點上', 'ㄉㄧㄢˇ ㄕㄤˋ'] },
+    { k: ['睛', 'ㄐㄧㄥ'], v: ['眼睛', 'ㄧㄢˇ ㄐㄧㄥ'] }
+  ],
+  meaning: ['比喻在關鍵的地方加上一筆，讓整體變得更生動精采。', 'ㄅㄧˇ ㄩˋ ㄗㄞˋ ㄍㄨㄢ ㄐㄧㄢˋ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ ㄐㄧㄚ ㄕㄤˋ ㄧ ㄅㄧˇ ㄖㄤˋ ㄓㄥˇ ㄊㄧˇ ㄅㄧㄢˋ ㄉㄜˊ ㄍㄥ ㄕㄥ ㄉㄨㄥˋ ㄐㄧㄥ ㄘㄞˇ'],
+  source: {
+    book: ['唐・張彥遠《歷代名畫記》', 'ㄊㄤˊ ㄓㄤ ㄧㄢˋ ㄩㄢˇ ㄌㄧˋ ㄉㄞˋ ㄇㄧㄥˊ ㄏㄨㄚˋ ㄐㄧˋ'],
+    story: [
+      ['畫家張僧繇在牆上畫了四條龍，卻都沒有畫眼睛。', 'ㄏㄨㄚˋ ㄐㄧㄚ ㄓㄤ ㄙㄥ ㄧㄠˊ ㄗㄞˋ ㄑㄧㄤˊ ㄕㄤˋ ㄏㄨㄚˋ ㄌㄜ˙ ㄙˋ ㄊㄧㄠˊ ㄌㄨㄥˊ ㄑㄩㄝˋ ㄉㄡ ㄇㄟˊ ㄧㄡˇ ㄏㄨㄚˋ ㄧㄢˇ ㄐㄧㄥ'],
+      ['大家問他為什麼，他說一畫上眼睛，龍就會飛走。', 'ㄉㄚˋ ㄐㄧㄚ ㄨㄣˋ ㄊㄚ ㄨㄟˋ ㄕㄣˊ ㄇㄜ˙ ㄊㄚ ㄕㄨㄛ ㄧ ㄏㄨㄚˋ ㄕㄤˋ ㄧㄢˇ ㄐㄧㄥ ㄌㄨㄥˊ ㄐㄧㄡˋ ㄏㄨㄟˋ ㄈㄟ ㄗㄡˇ'],
+      ['大家不相信，堅持要他畫，他點了其中兩條龍的眼睛，那兩條龍果然騰空飛走了。', 'ㄉㄚˋ ㄐㄧㄚ ㄅㄨˋ ㄒㄧㄤ ㄒㄧㄣˋ ㄐㄧㄢ ㄔˊ ㄧㄠˋ ㄊㄚ ㄏㄨㄚˋ ㄊㄚ ㄉㄧㄢˇ ㄌㄜ˙ ㄑㄧˊ ㄓㄨㄥ ㄌㄧㄤˇ ㄊㄧㄠˊ ㄌㄨㄥˊ ㄉㄜ˙ ㄧㄢˇ ㄐㄧㄥ ㄋㄚˋ ㄌㄧㄤˇ ㄊㄧㄠˊ ㄌㄨㄥˊ ㄍㄨㄛˇ ㄖㄢˊ ㄊㄥˊ ㄎㄨㄥ ㄈㄟ ㄗㄡˇ ㄌㄜ˙']
+    ],
+    quote: ['點睛者飛去，不點睛者見在', 'ㄉㄧㄢˇ ㄐㄧㄥ ㄓㄜˇ ㄈㄟ ㄑㄩˋ ㄅㄨˋ ㄉㄧㄢˇ ㄐㄧㄥ ㄓㄜˇ ㄐㄧㄢˋ ㄗㄞˋ'],
+    quoteNote: ['點上眼睛的龍飛走了，沒點眼睛的龍還留在牆上。', 'ㄉㄧㄢˇ ㄕㄤˋ ㄧㄢˇ ㄐㄧㄥ ㄉㄜ˙ ㄌㄨㄥˊ ㄈㄟ ㄗㄡˇ ㄌㄜ˙ ㄇㄟˊ ㄉㄧㄢˇ ㄧㄢˇ ㄐㄧㄥ ㄉㄜ˙ ㄌㄨㄥˊ ㄏㄞˊ ㄌㄧㄡˊ ㄗㄞˋ ㄑㄧㄤˊ ㄕㄤˋ']
+  },
+  example: [
+    ['結尾加上這句幽默的話，讓整篇演講', 'ㄐㄧㄝˊ ㄨㄟˇ ㄐㄧㄚ ㄕㄤˋ ㄓㄜˋ ㄐㄩˋ ㄧㄡ ㄇㄛˋ ㄉㄜ˙ ㄏㄨㄚˋ ㄖㄤˋ ㄓㄥˇ ㄆㄧㄢ ㄧㄢˇ ㄐㄧㄤˇ'],
+    ['畫龍點睛', 'ㄏㄨㄚˋ ㄌㄨㄥˊ ㄉㄧㄢˇ ㄐㄧㄥ', true],
+    ['，特別精采。', 'ㄊㄜˋ ㄅㄧㄝˊ ㄐㄧㄥ ㄘㄞˇ']
+  ],
+  syn: [['錦上添花', 'ㄐㄧㄣˇ ㄕㄤˋ ㄊㄧㄢ ㄏㄨㄚ']],
+  ant: [['畫蛇添足', 'ㄏㄨㄚˋ ㄕㄜˊ ㄊㄧㄢ ㄗㄨˊ']],
+  quiz: {
+    before: ['蛋糕最後放上一顆草莓，整個作品瞬間', 'ㄉㄢˋ ㄍㄠ ㄗㄨㄟˋ ㄏㄡˋ ㄈㄤˋ ㄕㄤˋ ㄧ ㄎㄜ ㄘㄠˇ ㄇㄟˊ ㄓㄥˇ ㄍㄜˋ ㄗㄨㄛˋ ㄆㄧㄣˇ ㄕㄨㄣˋ ㄐㄧㄢ'],
+    after: ['，好看極了。', 'ㄏㄠˇ ㄎㄢˋ ㄐㄧˊ ㄌㄜ˙'],
+    options: ['畫龍點睛', '杯弓蛇影'], answer: '畫龍點睛'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="132" width="280" height="18" fill="#C9A27A"/>
+<rect x="20" y="20" width="240" height="100" rx="4" fill="#F1EFE8" stroke="#D3D1C7"/>
+<path d="M50,90 Q80,50 120,80 T190,60 T240,90" stroke="#3D8B5E" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M60,78 l-4,10 M78,66 l-3,11 M140,72 l-3,10 M170,64 l-3,10 M210,72 l-3,10" stroke="#2B6B47" stroke-width="3" stroke-linecap="round"/>
+<path d="M240,90 q14,-4 14,-16" stroke="#3D8B5E" stroke-width="8" fill="none" stroke-linecap="round"/>
+<polygon points="252,72 262,70 256,78" fill="#3D8B5E"/>
+<circle class="a-glow" cx="246" cy="86" r="3" fill="#D6333A"/>
+<circle cx="246" cy="86" r="2" fill="#D6333A"/>
+<path d="M50,90 q-10,4 -14,-4" stroke="#3D8B5E" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>`
+},
+{
+  id: 'wang-mei-zhi-ke', cat: '食物飲食',
+  word: ['望梅止渴', 'ㄨㄤˋ ㄇㄟˊ ㄓˇ ㄎㄜˇ'],
+  keys: [
+    { k: ['望', 'ㄨㄤˋ'], v: ['看', 'ㄎㄢˋ'] },
+    { k: ['止', 'ㄓˇ'], v: ['停止', 'ㄊㄧㄥˊ ㄓˇ'] }
+  ],
+  meaning: ['比喻用空想或假象來安慰自己，並沒有真正解決問題。', 'ㄅㄧˇ ㄩˋ ㄩㄥˋ ㄎㄨㄥ ㄒㄧㄤˇ ㄏㄨㄛˋ ㄐㄧㄚˇ ㄒㄧㄤˋ ㄌㄞˊ ㄢ ㄨㄟˋ ㄗˋ ㄐㄧˇ ㄅㄧㄥˋ ㄇㄟˊ ㄧㄡˇ ㄓㄣ ㄓㄥˋ ㄐㄧㄝˇ ㄐㄩㄝˊ ㄨㄣˋ ㄊㄧˊ'],
+  source: {
+    book: ['《世說新語・假譎》', 'ㄕˋ ㄕㄨㄛ ㄒㄧㄣ ㄩˇ ㄐㄧㄚˇ ㄐㄩㄝˊ'],
+    story: [
+      ['曹操帶兵行軍，天氣炎熱，士兵們又累又渴，走不動了。', 'ㄘㄠˊ ㄘㄠ ㄉㄞˋ ㄅㄧㄥ ㄒㄧㄥˊ ㄐㄩㄣ ㄊㄧㄢ ㄑㄧˋ ㄧㄢˊ ㄖㄜˋ ㄕˋ ㄅㄧㄥ ㄇㄣ˙ ㄧㄡˋ ㄌㄟˋ ㄧㄡˋ ㄎㄜˇ ㄗㄡˇ ㄅㄨˋ ㄉㄨㄥˋ ㄌㄜ˙'],
+      ['曹操告訴大家，前面有一大片梅林，梅子又酸又甜。', 'ㄘㄠˊ ㄘㄠ ㄍㄠˋ ㄙㄨˋ ㄉㄚˋ ㄐㄧㄚ ㄑㄧㄢˊ ㄇㄧㄢˋ ㄧㄡˇ ㄧ ㄉㄚˋ ㄆㄧㄢˋ ㄇㄟˊ ㄌㄧㄣˊ ㄇㄟˊ ㄗ˙ ㄧㄡˋ ㄙㄨㄢ ㄧㄡˋ ㄊㄧㄢˊ'],
+      ['士兵們一聽，嘴裡冒出口水，暫時忘記口渴，才撐到找到水源的地方。', 'ㄕˋ ㄅㄧㄥ ㄇㄣ˙ ㄧ ㄊㄧㄥ ㄗㄨㄟˇ ㄌㄧˇ ㄇㄠˋ ㄔㄨ ㄎㄡˇ ㄕㄨㄟˇ ㄗㄢˋ ㄕˊ ㄨㄤˋ ㄐㄧˋ ㄎㄡˇ ㄎㄜˇ ㄘㄞˊ ㄔㄥ ㄉㄠˋ ㄓㄠˇ ㄉㄠˋ ㄕㄨㄟˇ ㄩㄢˊ ㄉㄜ˙ ㄉㄧˋ ㄈㄤ']
+    ],
+    quote: ['前有大梅林，饒子，甘酸可以解渴', 'ㄑㄧㄢˊ ㄧㄡˇ ㄉㄚˋ ㄇㄟˊ ㄌㄧㄣˊ ㄖㄠˊ ㄗ˙ ㄍㄢ ㄙㄨㄢ ㄎㄜˇ ㄧˇ ㄐㄧㄝˇ ㄎㄜˇ'],
+    quoteNote: ['前面有一大片梅樹林，梅子又甜又酸，可以解渴。', 'ㄑㄧㄢˊ ㄇㄧㄢˋ ㄧㄡˇ ㄧ ㄉㄚˋ ㄆㄧㄢˋ ㄇㄟˊ ㄕㄨˋ ㄌㄧㄣˊ ㄇㄟˊ ㄗ˙ ㄧㄡˋ ㄊㄧㄢˊ ㄧㄡˋ ㄙㄨㄢ ㄎㄜˇ ㄧˇ ㄐㄧㄝˇ ㄎㄜˇ']
+  },
+  example: [
+    ['肚子餓的時候，看著美食圖片幻想，也只能', 'ㄉㄨˇ ㄗ˙ ㄜˋ ㄉㄜ˙ ㄕˊ ㄏㄡˋ ㄎㄢˋ ㄓㄜ˙ ㄇㄟˇ ㄕˊ ㄊㄨˊ ㄆㄧㄢˋ ㄏㄨㄢˋ ㄒㄧㄤˇ ㄧㄝˇ ㄓˇ ㄋㄥˊ'],
+    ['望梅止渴', 'ㄨㄤˋ ㄇㄟˊ ㄓˇ ㄎㄜˇ', true],
+    ['，安慰自己。', 'ㄢ ㄨㄟˋ ㄗˋ ㄐㄧˇ']
+  ],
+  syn: [['畫餅充飢', 'ㄏㄨㄚˋ ㄅㄧㄥˇ ㄔㄨㄥ ㄐㄧ']],
+  ant: [['實事求是', 'ㄕˊ ㄕˋ ㄑㄧㄡˊ ㄕˋ']],
+  quiz: {
+    before: ['想到遊樂園卻還沒放假，只好看照片', 'ㄒㄧㄤˇ ㄉㄠˋ ㄧㄡˊ ㄌㄜˋ ㄩㄢˊ ㄑㄩㄝˋ ㄏㄞˊ ㄇㄟˊ ㄈㄤˋ ㄐㄧㄚˋ ㄓˇ ㄏㄠˇ ㄎㄢˋ ㄓㄠˋ ㄆㄧㄢ'],
+    after: ['一下。', 'ㄧ ㄒㄧㄚˋ'],
+    options: ['望梅止渴', '畫龍點睛'], answer: '望梅止渴'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="128" width="280" height="22" fill="#C9A27A"/>
+<path d="M60,128 V70" stroke="#854F0B" stroke-width="6" stroke-linecap="round"/>
+<path d="M60,90 Q40,76 30,84 M60,80 Q84,64 96,74 M60,100 Q38,96 26,106" stroke="#854F0B" stroke-width="4" fill="none" stroke-linecap="round"/>
+<g class="a-sway" style="transform-origin:60px 128px">
+<circle class="a-bob" cx="32" cy="86" r="6" fill="#D6333A"/><circle class="a-bob" cx="92" cy="76" r="6" fill="#D6333A" style="animation-delay:.3s"/><circle class="a-bob" cx="28" cy="108" r="6" fill="#D6333A" style="animation-delay:.6s"/><circle class="a-bob" cx="66" cy="92" r="5" fill="#D6333A" style="animation-delay:.9s"/>
+</g>
+<ellipse cx="180" cy="128" rx="16" ry="9" fill="#FAC775"/><rect x="172" y="112" width="6" height="18" fill="#993C1D"/><rect x="184" y="112" width="6" height="18" fill="#993C1D"/>
+<circle cx="180" cy="102" r="10" fill="#F5C4B3"/><polygon points="168,96 180,86 192,96" fill="#4FB3E8"/>
+<path d="M174,106 Q180,112 186,106" stroke="#D85A30" stroke-width="1.5" fill="none"/>
+<circle cx="176" cy="100" r="1.6" fill="#2C2C2A"/><circle cx="184" cy="100" r="1.6" fill="#2C2C2A"/>
+</svg>`
+},
+{
+  id: 'shu-neng-sheng-qiao', cat: '學習勤奮',
+  word: ['熟能生巧', 'ㄕㄨˊ ㄋㄥˊ ㄕㄥ ㄑㄧㄠˇ'],
+  keys: [
+    { k: ['熟', 'ㄕㄨˊ'], v: ['熟練', 'ㄕㄨˊ ㄌㄧㄢˋ'] },
+    { k: ['巧', 'ㄑㄧㄠˇ'], v: ['技巧', 'ㄐㄧˋ ㄑㄧㄠˇ'] }
+  ],
+  meaning: ['比喻事情做久了、練習多了，自然就能掌握技巧。', 'ㄅㄧˇ ㄩˋ ㄕˋ ㄑㄧㄥˊ ㄗㄨㄛˋ ㄐㄧㄡˇ ㄌㄜ˙ ㄌㄧㄢˋ ㄒㄧˊ ㄉㄨㄛ ㄌㄜ˙ ㄗˋ ㄖㄢˊ ㄐㄧㄡˋ ㄋㄥˊ ㄓㄤˇ ㄨㄛˋ ㄐㄧˋ ㄑㄧㄠˇ'],
+  source: {
+    book: ['宋・歐陽修《歸田錄》', 'ㄙㄨㄥˋ ㄡ ㄧㄤˊ ㄒㄧㄡ ㄍㄨㄟ ㄊㄧㄢˊ ㄌㄨˋ'],
+    story: [
+      ['有位賣油的老翁，看見射箭高手連續射中靶心，卻只是微微點頭，不特別讚嘆。', 'ㄧㄡˇ ㄨㄟˋ ㄇㄞˋ ㄧㄡˊ ㄉㄜ˙ ㄌㄠˇ ㄨㄥ ㄎㄢˋ ㄐㄧㄢˋ ㄕㄜˋ ㄐㄧㄢˋ ㄍㄠ ㄕㄡˇ ㄌㄧㄢˊ ㄒㄩˋ ㄕㄜˋ ㄓㄨㄥˋ ㄅㄚˇ ㄒㄧㄣ ㄑㄩㄝˋ ㄓˇ ㄕˋ ㄨㄟ ㄨㄟ ㄉㄧㄢˇ ㄊㄡˊ ㄅㄨˋ ㄊㄜˋ ㄅㄧㄝˊ ㄗㄢˋ ㄊㄢˋ'],
+      ['老翁拿出一枚銅錢蓋在油瓶口，舀油倒進錢孔裡，油完全沒沾到銅錢。', 'ㄌㄠˇ ㄨㄥ ㄋㄚˊ ㄔㄨ ㄧ ㄇㄟˊ ㄊㄨㄥˊ ㄑㄧㄢˊ ㄍㄞˋ ㄗㄞˋ ㄧㄡˊ ㄆㄧㄥˊ ㄎㄡˇ ㄧㄠˇ ㄧㄡˊ ㄉㄠˋ ㄐㄧㄣˋ ㄑㄧㄢˊ ㄎㄨㄥˇ ㄌㄧˇ ㄧㄡˊ ㄨㄢˊ ㄑㄩㄢˊ ㄇㄟˊ ㄓㄢ ㄉㄠˋ ㄊㄨㄥˊ ㄑㄧㄢˊ'],
+      ['老翁說：「我沒有別的訣竅，只是練習得夠多而已。」', 'ㄌㄠˇ ㄨㄥ ㄕㄨㄛ ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄅㄧㄝˊ ㄉㄜ˙ ㄐㄩㄝˊ ㄑㄧㄠˋ ㄓˇ ㄕˋ ㄌㄧㄢˋ ㄒㄧˊ ㄉㄜ˙ ㄍㄡˋ ㄉㄨㄛ ㄦˊ ㄧˇ']
+    ],
+    quote: ['我亦無他，惟手熟爾', 'ㄨㄛˇ ㄧˋ ㄨˊ ㄊㄚ ㄨㄟˊ ㄕㄡˇ ㄕㄨˊ ㄦˇ'],
+    quoteNote: ['我沒有別的本事，只是手法練得熟練罷了。', 'ㄨㄛˇ ㄇㄟˊ ㄧㄡˇ ㄅㄧㄝˊ ㄉㄜ˙ ㄅㄣˇ ㄕˋ ㄓˇ ㄕˋ ㄕㄡˇ ㄈㄚˇ ㄌㄧㄢˋ ㄉㄜ˙ ㄕㄨˊ ㄌㄧㄢˋ ㄅㄚˋ ㄌㄜ˙']
+  },
+  example: [
+    ['她每天練琴一小時，現在彈起曲子又快又準，真是', 'ㄊㄚ ㄇㄟˇ ㄊㄧㄢ ㄌㄧㄢˋ ㄑㄧㄣˊ ㄧ ㄒㄧㄠˇ ㄕˊ ㄒㄧㄢˋ ㄗㄞˋ ㄉㄢˋ ㄑㄧˇ ㄑㄩˇ ㄗ˙ ㄧㄡˋ ㄎㄨㄞˋ ㄧㄡˋ ㄓㄨㄣˇ ㄓㄣ ㄕˋ'],
+    ['熟能生巧', 'ㄕㄨˊ ㄋㄥˊ ㄕㄥ ㄑㄧㄠˇ', true],
+    ['。', '']
+  ],
+  syn: [['駕輕就熟', 'ㄐㄧㄚˋ ㄑㄧㄥ ㄐㄧㄡˋ ㄕㄨˊ']],
+  ant: [['半路出家', 'ㄅㄢˋ ㄌㄨˋ ㄔㄨ ㄐㄧㄚ']],
+  quiz: {
+    before: ['哥哥每天練習投籃一百次，現在投籃命中率很高，這是', 'ㄍㄜ ㄍㄜ ㄇㄟˇ ㄊㄧㄢ ㄌㄧㄢˋ ㄒㄧˊ ㄊㄡˊ ㄌㄢˊ ㄧˋ ㄅㄞˇ ㄘˋ ㄒㄧㄢˋ ㄗㄞˋ ㄊㄡˊ ㄌㄢˊ ㄇㄧㄥˋ ㄓㄨㄥˋ ㄌㄩˋ ㄏㄣˇ ㄍㄠ ㄓㄜˋ ㄕˋ'],
+    after: ['的結果。', 'ㄉㄜ˙ ㄐㄧㄝˊ ㄍㄨㄛˇ'],
+    options: ['熟能生巧', '望梅止渴'], answer: '熟能生巧'
+  },
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="128" width="280" height="22" fill="#C9A27A"/>
+<ellipse cx="80" cy="124" rx="18" ry="10" fill="#B4B2A9"/>
+<circle cx="80" cy="108" r="11" fill="#F5C4B3"/><polygon points="66,102 80,90 94,102" fill="#EAF3EA" stroke="#B4B2A9"/>
+<path d="M96,100 Q120,92 140,98" stroke="#854F0B" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="150" cy="98" rx="10" ry="14" fill="#BA7517"/>
+<circle cx="176" cy="112" r="9" fill="#FAC775" stroke="#BA7517" stroke-width="2"/><circle cx="176" cy="112" r="3" fill="#FBF3E4"/>
+<path class="a-bob" d="M160,100 Q168,106 176,112" stroke="#4FB3E8" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="168" y="120" width="16" height="22" fill="#378ADD"/><rect x="170" y="116" width="12" height="6" fill="#0C447C"/>
+<circle class="a-bubble" cx="176" cy="118" r="1.6" fill="#EAF3EA"/>
+</svg>`
 }
 ];
