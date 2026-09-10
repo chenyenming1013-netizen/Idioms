@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>成語小教室</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div id="hd-title"></div>
+  <a class="back-link" href="index.html">← 回成語列表</a>
+</header>
+
+<div id="card-slot"></div>
+<div class="nav-links" id="nav-slot"></div>
+
+<script src="idioms.js"></script>
+<script src="zhuyin.js"></script>
+<script>
+const params = new URLSearchParams(location.search);
+const id = params.get('id');
+const idx0 = IDIOMS.findIndex(x => x.id === id);
+const d = idx0 >= 0 ? IDIOMS[idx0] : IDIOMS[0];
+const idx = (idx0 >= 0 ? idx0 : 0) + 1;
+document.title = d.word[0] + '｜成語小教室';
+
+document.getElementById('hd-title').innerHTML = zyGridTitle(d.word).replace('class="grid"', 'class="grid" style="margin:0 auto;display:inline-flex;background:#fff"');
+
+const hd = (t, z) => '<div class="hd">' + zyLine([t, z]) + '</div>';
+const Z = {};
+IDIOMS.forEach(x => { Z[x.word[0]] = x.word[1]; x.syn.concat(x.ant).forEach(s => Z[s[0]] = s[1]); });
+
+let h = '<div class="card-top"><span class="tag">' + d.cat + '</span></div>';
+h += '<div class="art">' + d.art + '</div>';
+
+h += '<div class="sec">' + hd('字詞小幫手', 'ㄗˋ ㄘˊ ㄒㄧㄠˇ ㄅㄤ ㄕㄡˇ') +
+  '<div class="keys">' + d.keys.map(k =>
+    '<div class="key">' + zyInline(k.k) + '<span class="eq">＝</span>' + zyInline(k.v) + '</div>'
+  ).join('') + '</div></div>';
+
+h += '<div class="sec">' + hd('意思', 'ㄧˋ ㄙ˙') + zyLine(d.meaning) + '</div>';
+
+const s = d.source;
+h += '<div class="sec">' + hd('成語來源', 'ㄔㄥˊ ㄩˇ ㄌㄞˊ ㄩㄢˊ') +
+  '<div class="book">' + zyInline(s.book) + '</div>' +
+  '<div class="story">' + s.story.map(p => '<p class="zl" style="font-size:1.15rem">' + zyInline(p) + '</p>').join('') + '</div>' +
+  (s.quote ? '<div class="quote">' + zyLine(s.quote, 'q') + zyLine(s.quoteNote, 'n') + '</div>' : '') +
+  '</div>';
+
+h += '<div class="sec">' + hd('例句', 'ㄌㄧˋ ㄐㄩˋ') +
+  '<div class="zl">' + d.example.map(p => p[2] ? '<span class="tk hl">' + zyInline(p) + '</span>' : zyInline(p)).join('') + '</div></div>';
+
+const rel = (lab, z, arr) => '<div class="box"><div class="lab zl" style="font-size:1.15rem">' + zyInline([lab, z]) + '</div>' +
+  (arr.length ? arr.map(a => zyLine(a)).join('') : '<div class="empty">—</div>') + '</div>';
+h += '<div class="sec pair">' + rel('近義詞', 'ㄐㄧㄣˋ ㄧˋ ㄘˊ', d.syn) + rel('反義詞', 'ㄈㄢˇ ㄧˋ ㄘˊ', d.ant) + '</div>';
+
+const q = d.quiz;
+h += '<div class="sec">' + hd('小練習', 'ㄒㄧㄠˇ ㄌㄧㄢˋ ㄒㄧˊ') +
+  '<div class="zl">' + zyInline(q.before) + '<span class="blank"></span>' + zyInline(q.after) + '</div>' +
+  '<div class="opts">' + q.options.map((o, i) =>
+    '<div class="opt"><span class="num-badge">' + (i + 1) + '</span>' + zyLine([o, Z[o]]) + '</div>'
+  ).join('') + '</div></div>';
+
+h += '<div class="foot"><span>成語小教室・第 ' + idx + ' 課</span><span>解答：' + (q.options.indexOf(q.answer) + 1) + '</span></div>';
+
+document.getElementById('card-slot').innerHTML = '<div class="card">' + h + '</div>';
+
+const prev = IDIOMS[(idx - 2 + IDIOMS.length) % IDIOMS.length];
+const next = IDIOMS[idx % IDIOMS.length];
+document.getElementById('nav-slot').innerHTML =
+  '<a class="prev" href="idiom.html?id=' + prev.id + '"><span class="lab">上一課</span>' + prev.word[0] + '</a>' +
+  '<a class="next" href="idiom.html?id=' + next.id + '"><span class="lab">下一課</span>' + next.word[0] + '</a>';
+</script>
+
+</body>
+</html>

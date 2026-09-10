@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>成語小教室</title>
+<meta name="description" content="國小成語練習，附注音標示、字義圖解、成語來源與小練習。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>成語小教室</h1>
+  <p>每個成語都附注音標示，還有圖解、來源故事和小練習</p>
+  <div id="count" style="margin-top:.9rem;font-size:.95rem;color:#E4F1E8"></div>
+</header>
+
+<div class="wrap">
+  <div class="filters" id="filters"></div>
+  <div class="gallery" id="gallery"></div>
+</div>
+
+<script src="idioms.js"></script>
+<script src="zhuyin.js"></script>
+<script>
+const gallery = document.getElementById('gallery');
+const filters = document.getElementById('filters');
+const countEl = document.getElementById('count');
+const cats = ['全部', ...new Set(IDIOMS.map(d => d.cat))];
+let active = '全部';
+
+countEl.textContent = '目前共有 ' + IDIOMS.length + ' 個成語';
+
+function renderFilters() {
+  filters.innerHTML = cats.map(c =>
+    '<button class="chip' + (c === active ? ' on' : '') + '" data-c="' + c + '">' + c + '</button>'
+  ).join('');
+  filters.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => {
+    active = b.dataset.c;
+    renderFilters();
+    renderGallery();
+  }));
+}
+
+function renderGallery() {
+  const list = IDIOMS.filter(d => active === '全部' || d.cat === active);
+  gallery.innerHTML = list.map((d) => {
+    const idx = IDIOMS.indexOf(d) + 1;
+    return '<a class="tile" href="idiom.html?id=' + d.id + '">' +
+      '<div class="tile-top"><span class="num">第 ' + idx + ' 課</span><span class="tag">' + d.cat + '</span></div>' +
+      zyLine(d.word) +
+      '<div class="mean">' + d.meaning[0] + '</div>' +
+      '</a>';
+  }).join('');
+}
+
+renderFilters();
+renderGallery();
+</script>
+
+</body>
+</html>
