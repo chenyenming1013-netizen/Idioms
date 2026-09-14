@@ -31,7 +31,36 @@ window.IDIOMS = [
     after: ['，有魚、有蝦，還有香菇雞湯。', 'ㄧㄡˇ ㄩˊ ㄧㄡˇ ㄒㄧㄚ ㄏㄞˊ ㄧㄡˇ ㄒㄧㄤ ㄍㄨ ㄐㄧ ㄊㄤ'],
     options: ['山珍海味', '粗茶淡飯'], answer: '山珍海味'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="140" height="150" fill="#E3F1FB"/><polygon points="0,112 50,45 100,112" fill="#97C459"/><polygon points="45,112 95,35 145,112" fill="#639922"/><rect y="108" width="140" height="42" fill="#C0DD97"/><rect x="30" y="120" width="9" height="16" rx="3" fill="#F6F1E4"/><path d="M20,124 Q34,102 49,124Z" fill="#D85A30"/><circle cx="30" cy="116" r="2.3" fill="#fff"/><circle cx="39" cy="113" r="1.8" fill="#fff"/><path d="M88,142 L100,104 L112,142Z" fill="#BA7517"/><path d="M91,132H109M95,120H105" stroke="#854F0B" stroke-width="1.5"/><rect x="140" width="140" height="150" fill="#E3F1FB"/><path d="M140,26 Q157,18 175,26 T210,26 T245,26 T280,26 V150 H140Z" fill="#85B7EB"/><path d="M140,128 Q180,118 210,128 T280,128 V150 H140Z" fill="#FAC775"/><g class="a-bob"><polygon points="168,64 156,54 156,74" fill="#EF9F27"/><ellipse cx="186" cy="64" rx="20" ry="11" fill="#EF9F27"/><circle cx="197" cy="61" r="2.3" fill="#2C2C2A"/></g><circle class="a-bubble" cx="214" cy="48" r="3" fill="none" stroke="#fff" stroke-width="1.5"/><circle class="a-bubble" cx="220" cy="38" r="2" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M227,124 L218,132 M229,128 L221,136 M253,124 L262,132 M251,128 L259,136" stroke="#A32D2D" stroke-width="2" stroke-linecap="round"/><path d="M232,116 L225,108 M248,116 L255,108" stroke="#E24B4A" stroke-width="3" stroke-linecap="round"/><circle cx="223" cy="105" r="5.5" fill="#E24B4A"/><circle cx="257" cy="105" r="5.5" fill="#E24B4A"/><ellipse cx="240" cy="122" rx="15" ry="9" fill="#E24B4A"/><circle cx="235" cy="113" r="2.2" fill="#2C2C2A"/><circle cx="245" cy="113" r="2.2" fill="#2C2C2A"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EAF4FB"/><stop offset="1" stop-color="#D3E9F7"/></linearGradient>
+<linearGradient id="mtnFar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A9D07E"/><stop offset="1" stop-color="#8CBE5E"/></linearGradient>
+<linearGradient id="mtnNear" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6FA83E"/><stop offset="1" stop-color="#548030"/></linearGradient>
+<linearGradient id="sea1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FC3EE"/><stop offset="1" stop-color="#5FA3DD"/></linearGradient>
+<linearGradient id="fishBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBB94C"/><stop offset="1" stop-color="#EF8F1F"/></linearGradient>
+</defs>
+<rect width="140" height="150" fill="url(#sky1)"/>
+<path d="M0,120 Q30,60 60,100 Q78,72 100,110 Q118,88 140,118 V150 H0Z" fill="url(#mtnFar)"/>
+<path d="M0,130 Q35,84 66,120 Q86,96 140,132 V150 H0Z" fill="url(#mtnNear)"/>
+<rect y="120" width="140" height="30" fill="#C7DFA0"/>
+<path d="M30,120 Q26,104 34,96 Q42,104 38,120Z" fill="#D9432B"/><ellipse cx="32" cy="96" rx="9" ry="4" fill="#E8503A"/><circle cx="27" cy="106" r="2" fill="#F4D9CC"/><circle cx="37" cy="110" r="1.6" fill="#F4D9CC"/>
+<rect x="16" y="120" width="5" height="20" fill="#F1EFE8"/>
+<path d="M90,140 L102,102 L114,140Z" fill="#B9822F"/><path d="M96,124 H108 M99,113 H105" stroke="#7C5A1F" stroke-width="1.3"/>
+<rect width="140" height="150" x="140" fill="url(#sea1)"/>
+<path d="M140,24 Q158,14 176,24 T212,24 T248,24 T280,24 V150 H140Z" fill="#B9DFF6" opacity=".5"/>
+<path d="M140,130 Q182,118 214,130 T280,130 V150 H140Z" fill="#F3D89A"/>
+<path d="M162,58 Q158,44 172,40 Q198,36 212,56 Q220,66 210,74 Q214,82 204,86 Q192,92 180,84 Q166,86 162,74 Q154,68 162,58Z" fill="url(#fishBody)" stroke="#C96E10" stroke-width="1"/>
+<path d="M160,64 L146,54 L148,76Z" fill="#E8790E"/>
+<circle cx="200" cy="58" r="3.4" fill="#2C2C2A"/><circle cx="201" cy="57" r="1" fill="#fff"/>
+<path d="M178,52 Q186,48 194,52" stroke="#C96E10" stroke-width="1.2" fill="none" opacity=".6"/>
+<circle cx="222" cy="40" r="3" fill="none" stroke="#fff" stroke-width="1.4" opacity=".8"/><circle cx="230" cy="30" r="2.2" fill="none" stroke="#fff" stroke-width="1.4" opacity=".8"/>
+<ellipse cx="238" cy="118" rx="20" ry="13" fill="#E85A4A"/>
+<path d="M228,110 Q238,102 248,110" stroke="#C43E30" stroke-width="1.2" fill="none"/>
+<circle cx="231" cy="112" r="2" fill="#2C2C2A"/><circle cx="245" cy="112" r="2" fill="#2C2C2A"/>
+<path d="M222,116 L212,106 M254,116 L264,106" stroke="#D6483A" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="211" cy="103" r="5.5" fill="#E85A4A"/><circle cx="265" cy="103" r="5.5" fill="#E85A4A"/>
+<path d="M222,126 L212,134 M226,130 L218,140 M250,126 L260,134 M246,130 L254,140" stroke="#B6392C" stroke-width="2.2" stroke-linecap="round"/>
+</svg>`
 },
 {
   id: 'hu-jia-hu-wei', cat: '動物',
@@ -61,7 +90,58 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['狐假虎威', '守株待兔'], answer: '狐假虎威'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><circle cx="40" cy="30" r="12" fill="#FAC775"/><rect y="122" width="280" height="28" fill="#C0DD97"/><path d="M240,98 Q258,90 254,74" stroke="#EF9F27" stroke-width="5" fill="none" stroke-linecap="round"/><rect x="170" y="110" width="8" height="16" fill="#EF9F27"/><rect x="222" y="110" width="8" height="16" fill="#EF9F27"/><ellipse cx="200" cy="100" rx="40" ry="21" fill="#EF9F27"/><path d="M190,81 q-4,10 0,20 M205,80 q-4,11 0,21 M220,83 q-4,9 0,18" stroke="#633806" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="146" cy="70" r="5" fill="#EF9F27"/><circle cx="170" cy="70" r="5" fill="#EF9F27"/><circle cx="158" cy="86" r="18" fill="#EF9F27"/><path d="M154,72 v6 M158,70 v8 M162,72 v6" stroke="#633806" stroke-width="2" stroke-linecap="round"/><circle class="a-blink" cx="152" cy="84" r="2" fill="#2C2C2A"/><circle class="a-blink" cx="164" cy="84" r="2" fill="#2C2C2A"/><ellipse cx="158" cy="93" rx="3" ry="2" fill="#633806"/><rect x="74" y="114" width="5" height="12" fill="#993C1D"/><rect x="102" y="114" width="5" height="12" fill="#993C1D"/><ellipse cx="118" cy="100" rx="16" ry="7" fill="#D85A30" transform="rotate(-25 118 100)"/><circle cx="131" cy="94" r="4" fill="#FFF5EC"/><ellipse cx="90" cy="110" rx="22" ry="10" fill="#D85A30"/><polygon points="60,92 58,79 67,89" fill="#D85A30"/><polygon points="66,90 72,79 74,93" fill="#D85A30"/><circle cx="66" cy="100" r="10" fill="#D85A30"/><polygon class="a-wag" points="60,97 46,103 60,106" fill="#D85A30" style="transform-origin:60px 100px"/><circle cx="46" cy="103" r="1.8" fill="#2C2C2A"/><circle cx="62" cy="98" r="1.6" fill="#2C2C2A"/><ellipse cx="73" cy="108" rx="5" ry="4" fill="#FFF5EC"/><ellipse cx="14" cy="101" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="19" cy="100" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="24" cy="118" rx="9" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="16" cy="112" r="5" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><path d="M34,110 H42 M36,118 H44" stroke="#888780" stroke-width="1.5" stroke-linecap="round"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky3b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF4E4"/><stop offset="1" stop-color="#F7E7C4"/></linearGradient>
+<linearGradient id="foxBody2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EA8452"/><stop offset="1" stop-color="#C85A2E"/></linearGradient>
+<linearGradient id="tigerBody2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8BA55"/><stop offset="1" stop-color="#E8952A"/></linearGradient>
+<linearGradient id="ground3b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C7DFA0"/><stop offset="1" stop-color="#A9C97E"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky3b)"/>
+<circle cx="40" cy="26" r="12" fill="#FBCB78"/>
+<rect y="122" width="280" height="28" fill="url(#ground3b)"/>
+<path d="M0,124 Q20,116 40,124" stroke="#8CAF5E" stroke-width="2" fill="none"/>
+
+<g>
+<ellipse cx="24" cy="112" rx="15" ry="11" fill="#EDEAE0" stroke="#B9B4A4" stroke-width=".8"/>
+<circle cx="14" cy="102" r="10" fill="#EDEAE0" stroke="#B9B4A4" stroke-width=".8"/>
+<path d="M6,94 Q3,82 9,76 Q12,86 12,96Z" fill="#EDEAE0" stroke="#B9B4A4" stroke-width=".8"/>
+<path d="M16,92 Q17,80 23,76 Q21,86 20,94Z" fill="#EDEAE0" stroke="#B9B4A4" stroke-width=".8"/>
+<circle cx="10" cy="101" r="1.3" fill="#2C2C2A"/>
+<rect x="18" y="120" width="4" height="9" fill="#D3CEC0"/><rect x="30" y="122" width="4" height="8" fill="#D3CEC0"/>
+</g>
+
+<ellipse cx="90" cy="112" rx="34" ry="17" fill="url(#foxBody2)" stroke="#9C4420" stroke-width="1"/>
+<path d="M64,110 Q90,124 116,110" stroke="#F0B896" stroke-width="3" fill="none" opacity=".55"/>
+<circle cx="55" cy="98" r="15" fill="url(#foxBody2)" stroke="#9C4420" stroke-width="1"/>
+<polygon points="44,86 40,72 50,84" fill="url(#foxBody2)" stroke="#9C4420" stroke-width="1"/>
+<polygon points="60,84 66,70 56,82" fill="url(#foxBody2)" stroke="#9C4420" stroke-width="1"/>
+<polygon points="46,74 43,66 49,73" fill="#FBDFCC"/><polygon points="58,72 61,64 55,71" fill="#FBDFCC"/>
+<path d="M42,98 Q48,92 56,96 Q64,92 68,100 Q60,106 50,104Z" fill="#FBEEE3"/>
+<circle cx="49" cy="97" r="2" fill="#2C2C2A"/><circle cx="61" cy="97" r="2" fill="#2C2C2A"/>
+<circle cx="49.6" cy="96.4" r=".6" fill="#fff"/><circle cx="61.6" cy="96.4" r=".6" fill="#fff"/>
+<ellipse cx="55" cy="103" rx="2.6" ry="1.8" fill="#5A2E14"/>
+<rect x="72" y="120" width="6" height="12" fill="#9C4420"/><rect x="104" y="120" width="6" height="12" fill="#9C4420"/>
+<path d="M118,108 Q136,98 132,80" fill="url(#foxBody2)" stroke="#9C4420" stroke-width="1"/>
+<ellipse cx="132" cy="82" rx="6" ry="5" fill="#FBEEE3"/>
+
+<ellipse cx="200" cy="112" rx="42" ry="18" fill="url(#tigerBody2)" stroke="#B36F16" stroke-width="1"/>
+<path d="M168,100 l-2,14 M182,96 l-2,15 M198,94 l0,15 M214,96 l2,15 M228,100 l2,14" stroke="#5A3A0E" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="184" cy="82" r="19" fill="url(#tigerBody2)" stroke="#B36F16" stroke-width="1"/>
+<path d="M170,68 l-3,-12 M180,64 l-1,-13 M190,64 l1,-13 M200,68 l3,-12" stroke="#5A3A0E" stroke-width="2" stroke-linecap="round"/>
+<polygon points="170,72 164,58 176,68" fill="url(#tigerBody2)" stroke="#B36F16" stroke-width=".8"/>
+<polygon points="198,68 204,54 192,66" fill="url(#tigerBody2)" stroke="#B36F16" stroke-width=".8"/>
+<polygon points="171,64 168,58 174,63" fill="#FCE3B8"/><polygon points="197,63 200,57 194,62" fill="#FCE3B8"/>
+<circle cx="177" cy="80" r="2.4" fill="#2C2C2A"/><circle cx="191" cy="80" r="2.4" fill="#2C2C2A"/>
+<circle cx="177.7" cy="79.3" r=".7" fill="#fff"/><circle cx="191.7" cy="79.3" r=".7" fill="#fff"/>
+<ellipse cx="184" cy="90" rx="4" ry="2.6" fill="#5A3A0E"/>
+<path d="M180,94 Q184,98 188,94" stroke="#5A3A0E" stroke-width="1.2" fill="none"/>
+<path d="M164,76 L152,74 M164,80 L150,82" stroke="#8A8478" stroke-width=".8"/>
+<path d="M204,76 L216,74 M204,80 L218,82" stroke="#8A8478" stroke-width=".8"/>
+<rect x="166" y="122" width="7" height="14" fill="#B36F16"/><rect x="192" y="124" width="7" height="14" fill="#B36F16"/><rect x="216" y="122" width="7" height="14" fill="#B36F16"/><rect x="232" y="120" width="7" height="14" fill="#B36F16"/>
+<path d="M242,106 Q262,98 258,80" stroke="url(#tigerBody2)" stroke-width="11" fill="none" stroke-linecap="round"/>
+<path d="M248,96 l-4,11 M255,87 l-4,10" stroke="#5A3A0E" stroke-width="2" stroke-linecap="round"/>
+</svg>`
 },
 {
   id: 'hua-she-tian-zu', cat: '動物',
@@ -157,7 +237,40 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['井底之蛙', '狐假虎威'], answer: '井底之蛙'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#C9A27A"/><rect width="280" height="30" fill="#E3F1FB"/><circle cx="140" cy="14" r="8" fill="#FAC775"/><path d="M20,30 l-3,-7 M24,30 l0,-8 M28,30 l3,-7 M60,30 l-2,-6 M64,30 l2,-6" stroke="#639922" stroke-width="1.5" stroke-linecap="round"/><rect x="104" y="30" width="72" height="108" fill="#888780"/><rect x="113" y="30" width="54" height="108" fill="#444441"/><path d="M104,52 H113 M104,74 H113 M104,96 H113 M104,118 H113 M167,52 H176 M167,74 H176 M167,96 H176 M167,118 H176" stroke="#5F5E5A" stroke-width="1.5"/><rect x="113" y="122" width="54" height="16" fill="#378ADD"/><path d="M137,100 L128,34 M143,100 L152,34" stroke="#FAC775" stroke-width="1.2" stroke-dasharray="3 3"/><ellipse cx="140" cy="122" rx="15" ry="5" fill="#B4B2A9"/><ellipse cx="140" cy="112" rx="12" ry="8" fill="#97C459"/><circle cx="134" cy="104" r="4" fill="#97C459"/><circle cx="146" cy="104" r="4" fill="#97C459"/><circle cx="134" cy="103" r="1.6" fill="#2C2C2A"/><circle cx="146" cy="103" r="1.6" fill="#2C2C2A"/><path d="M136,113 Q140,116 144,113" stroke="#3B6D11" stroke-width="1.2" fill="none"/><ellipse cx="226" cy="23" rx="20" ry="9" fill="#3B6D11"/><path d="M212,23 H240 M218,17 L222,29 M232,17 L228,29" stroke="#27500A" stroke-width="1"/><circle cx="249" cy="25" r="4.5" fill="#639922"/><rect x="211" y="27" width="5" height="4" fill="#639922"/><rect x="236" y="27" width="5" height="4" fill="#639922"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EAF4FB"/><stop offset="1" stop-color="#CFE7F8"/></linearGradient>
+<linearGradient id="wellWall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8A8478"/><stop offset=".5" stop-color="#4A4640"/><stop offset="1" stop-color="#8A8478"/></linearGradient>
+<linearGradient id="water1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4FA0D8"/><stop offset="1" stop-color="#2C7CB8"/></linearGradient>
+<radialGradient id="frogBody" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#9AC978"/><stop offset="1" stop-color="#6FA84E"/></radialGradient>
+</defs>
+<rect width="280" height="150" fill="#C7A876"/>
+<rect width="280" height="30" fill="url(#sky4)"/>
+<circle cx="140" cy="15" r="9" fill="#FBCB78"/>
+<path d="M0,22 q10,-5 20,0 M46,26 q10,-5 20,0" stroke="#6FA84E" stroke-width="1.4" fill="none"/>
+
+<rect x="102" y="30" width="76" height="112" fill="url(#wellWall)"/>
+<rect x="112" y="30" width="56" height="112" fill="#2E2A24"/>
+<path d="M102,54 H112 M102,78 H112 M102,102 H112 M102,126 H112 M168,54 H178 M168,78 H178 M168,102 H178 M168,126 H178" stroke="#6A6458" stroke-width="1.4"/>
+<rect x="112" y="126" width="56" height="16" fill="url(#water1)"/>
+<ellipse cx="140" cy="126" rx="28" ry="4" fill="#6FBDEE" opacity=".6"/>
+
+<path d="M118,142 Q122,116 140,114 Q158,116 162,142Z" fill="url(#frogBody)" stroke="#4E7A34" stroke-width="1"/>
+<ellipse cx="127" cy="108" rx="9" ry="10" fill="url(#frogBody)" stroke="#4E7A34" stroke-width="1"/>
+<ellipse cx="153" cy="108" rx="9" ry="10" fill="url(#frogBody)" stroke="#4E7A34" stroke-width="1"/>
+<circle cx="127" cy="104" r="3.6" fill="#2C2C2A"/><circle cx="153" cy="104" r="3.6" fill="#2C2C2A"/>
+<circle cx="128.4" cy="102.6" r="1.1" fill="#fff"/><circle cx="154.4" cy="102.6" r="1.1" fill="#fff"/>
+<path d="M132,124 Q140,130 148,124" stroke="#4E7A34" stroke-width="1.4" fill="none"/>
+<path d="M120,138 Q108,144 100,136" stroke="#6FA84E" stroke-width="6" stroke-linecap="round" fill="none"/>
+<path d="M160,138 Q172,144 180,136" stroke="#6FA84E" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+<path d="M126,60 L133,45 M140,58 L140,42 M154,60 L147,45" stroke="#F5F0E0" stroke-width="1" stroke-dasharray="2 3" opacity=".7"/>
+
+<ellipse cx="228" cy="24" rx="22" ry="10" fill="#3E7A2E"/>
+<path d="M212,24 H244 M220,17 L224,31 M236,17 L232,31" stroke="#2A5A1E" stroke-width="1"/>
+<circle cx="252" cy="26" r="5" fill="#5A9A42"/><circle cx="255" cy="24" r="1.2" fill="#2C2C2A"/>
+<rect x="213" y="30" width="6" height="5" fill="#5A9A42"/><rect x="238" y="30" width="6" height="5" fill="#5A9A42"/>
+</svg>`
 },
 {
   id: 'wang-yang-bu-lao', cat: '動物',
