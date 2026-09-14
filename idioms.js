@@ -173,7 +173,26 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['畫蛇添足', '井底之蛙'], answer: '畫蛇添足'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#FAC775"/><rect x="24" y="28" width="168" height="100" rx="3" fill="#FFFFFF" stroke="#D3D1C7"/><path d="M50,95 C70,60 95,60 110,85 S150,110 170,70" stroke="#639922" stroke-width="10" fill="none" stroke-linecap="round"/><path d="M76,74 l-3,12 M90,72 l3,12 M132,106 l-3,11 M146,104 l3,11" stroke="#3B6D11" stroke-width="3" stroke-linecap="round"/><circle cx="172" cy="66" r="8" fill="#639922"/><circle cx="175" cy="63" r="1.8" fill="#2C2C2A"/><path d="M180,65 l8,-3 M180,65 l7,3" stroke="#E24B4A" stroke-width="1.5" stroke-linecap="round"/><path d="M198,40 L204,104" stroke="#854F0B" stroke-width="4" stroke-linecap="round"/><path d="M200,102 Q204,122 208,102Z" fill="#2C2C2A"/><path d="M222,130 Q210,100 234,94 V86 H250 V94 Q274,100 262,130 Z" fill="#993C1D"/><rect x="230" y="80" width="24" height="7" rx="2" fill="#712B13"/><rect x="232" y="104" width="20" height="14" rx="2" fill="#FAEEDA"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="paperBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDFBF3"/><stop offset="1" stop-color="#F3EEDC"/></linearGradient>
+<linearGradient id="jarBody" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A8442A"/><stop offset=".5" stop-color="#C25A38"/><stop offset="1" stop-color="#8E381F"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#EADFC4"/>
+<rect y="130" width="280" height="20" fill="#D9C9A0"/>
+<rect x="24" y="18" width="184" height="104" rx="4" fill="url(#paperBg)" stroke="#C7BC9C" stroke-width="1.5"/>
+<path d="M52,88 C68,52 96,54 108,78 C118,98 148,106 168,72" stroke="#3E7A46" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M52,88 C68,52 96,54 108,78 C118,98 148,106 168,72" stroke="#5A9A62" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M78,72 l-4,11 M96,66 l-3,12 M126,92 l-3,12 M144,98 l-2,11" stroke="#2A5A32" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="168,72 178,58 182,76" fill="#3E7A46"/>
+<circle cx="55" cy="82" r="2.6" fill="#2C2C2A"/>
+<path d="M186,64 L206,44" stroke="#5A3A22" stroke-width="4" stroke-linecap="round"/>
+<polygon points="200,50 214,36 218,50 204,58" fill="#2C2C2A"/>
+<path d="M212,40 l5,-5" stroke="#E64A3A" stroke-width="2" stroke-linecap="round"/>
+<path d="M228,100 Q224,80 240,74 Q256,80 252,100 Q254,118 240,122 Q226,118 228,100Z" fill="url(#jarBody)" stroke="#6E2A16" stroke-width="1.2"/>
+<ellipse cx="240" cy="74" rx="12" ry="4" fill="#6E2A16"/>
+<path d="M232,90 Q240,94 248,90" stroke="#E8BFA6" stroke-width="1.4" fill="none" opacity=".6"/>
+</svg>`
 },
 {
   id: 'shou-zhu-dai-tu', cat: '動物',
@@ -205,7 +224,34 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['守株待兔', '亡羊補牢'], answer: '守株待兔'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><ellipse cx="200" cy="30" rx="26" ry="9" fill="#FFFFFF"/><ellipse cx="220" cy="24" rx="16" ry="8" fill="#FFFFFF"/><rect y="98" width="280" height="52" fill="#C0DD97"/><path d="M0,112 H280 M0,128 H280 M0,144 H280" stroke="#97C459" stroke-width="1.5"/><path d="M28,128 L110,120" stroke="#854F0B" stroke-width="3" stroke-linecap="round"/><polygon points="22,122 32,120 34,134 24,134" fill="#888780"/><path d="M56,112 Q58,86 70,86 Q82,86 84,112 Z" fill="#378ADD"/><circle cx="70" cy="76" r="9" fill="#F5C4B3"/><polygon points="50,72 70,58 90,72" fill="#FAC775" stroke="#BA7517" stroke-width="1"/><path d="M66,77 h2 M73,77 h2" stroke="#2C2C2A" stroke-width="1.5" stroke-linecap="round"/><rect x="150" y="92" width="30" height="30" fill="#854F0B"/><ellipse cx="165" cy="92" rx="15" ry="5" fill="#BA7517"/><ellipse cx="165" cy="92" rx="8" ry="2.6" fill="none" stroke="#854F0B" stroke-width="1"/><ellipse cx="202" cy="120" rx="14" ry="7" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="189" cy="116" r="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="190" cy="106" rx="2" ry="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.8" transform="rotate(-20 190 106)"/><path d="M186,115 l3,3 M189,115 l-3,3" stroke="#2C2C2A" stroke-width="1.2"/><polygon points="184,96 186,100 190,100 187,103 188,107 184,105 180,107 181,103 178,100 182,100" fill="#EF9F27"/><polygon points="198,94 199.5,97 203,97 200.5,99 201.5,102 198,100.5 194.5,102 195.5,99 193,97 196.5,97" fill="#EF9F27"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CBE6F9"/></linearGradient>
+<linearGradient id="field5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C7DFA0"/><stop offset="1" stop-color="#A9C97E"/></linearGradient>
+<radialGradient id="stumpTop" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#B9895A"/><stop offset="1" stop-color="#8A5F38"/></radialGradient>
+</defs>
+<rect width="280" height="98" fill="url(#sky5)"/>
+<ellipse cx="210" cy="26" rx="30" ry="11" fill="#FFFFFF" opacity=".85"/><ellipse cx="234" cy="20" rx="20" ry="9" fill="#FFFFFF" opacity=".85"/>
+<rect y="98" width="280" height="52" fill="url(#field5)"/>
+<path d="M0,112 H280 M0,128 H280 M0,144 H280" stroke="#97C459" stroke-width="1.2" opacity=".6"/>
+<path d="M30,128 L108,120" stroke="#7C5A34" stroke-width="3.4" stroke-linecap="round"/>
+<polygon points="22,122 34,120 36,134 24,134" fill="#8A8478"/>
+<ellipse cx="70" cy="112" rx="17" ry="8" fill="#4A9BE0"/>
+<circle cx="70" cy="76" r="10" fill="#F0C4A6"/>
+<rect x="60" y="86" width="20" height="26" rx="4" fill="#4A9BE0"/>
+<polygon points="52,72 70,58 88,72" fill="url(#stumpTop)" stroke="#6E4A28"/>
+<path d="M66,79 h2 M73,79 h2" stroke="#2C2C2A" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M64,84 Q70,87 76,84" stroke="#B36F44" stroke-width="1" fill="none"/>
+<rect x="150" y="92" width="30" height="30" fill="url(#stumpTop)" stroke="#6E4A28"/>
+<ellipse cx="165" cy="92" rx="15" ry="5" fill="#C99A68"/>
+<ellipse cx="165" cy="92" rx="9" ry="3" fill="none" stroke="#8A5F38" stroke-width="1"/>
+<ellipse cx="200" cy="120" rx="15" ry="7.6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width=".8"/>
+<circle cx="188" cy="116" r="6.4" fill="#F1EFE8" stroke="#B4B2A9" stroke-width=".8"/>
+<ellipse cx="189" cy="105" rx="2.2" ry="6.4" fill="#F1EFE8" stroke="#B4B2A9" stroke-width=".8" transform="rotate(-20 189 105)"/>
+<circle cx="185" cy="115" r="1.4" fill="#2C2C2A"/>
+<polygon points="184,96 186,101 191,101 187,104 189,109 184,106 179,109 181,104 176,101 181,101" fill="#EF9F27"/>
+<polygon points="200,93 201.6,97 206,97 202.6,99.4 203.8,103 200,100.4 196.2,103 197.4,99.4 194,97 198.4,97" fill="#EF9F27"/>
+</svg>`
 },
 {
   id: 'jing-di-zhi-wa', cat: '動物',
@@ -303,7 +349,35 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['亡羊補牢', '畫蛇添足'], answer: '亡羊補牢'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="95" width="280" height="55" fill="#C0DD97"/><g><ellipse cx="96" cy="104" rx="16" ry="11" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="88" cy="95" r="6" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="100" cy="94" r="6" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="78" cy="101" rx="6" ry="7" fill="#444441"/><path d="M88,114 v8 M104,114 v8" stroke="#444441" stroke-width="2"/></g><g><ellipse cx="228" cy="106" rx="14" ry="10" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="222" cy="98" r="5" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><circle cx="233" cy="97" r="5" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="0.8"/><ellipse cx="244" cy="103" rx="5.5" ry="6.5" fill="#444441"/><path d="M221,115 v7 M235,115 v7" stroke="#444441" stroke-width="2"/></g><path d="M40,86 H150 M40,108 H150 M196,86 H262 M196,108 H262" stroke="#EF9F27" stroke-width="6"/><rect x="36" y="74" width="8" height="50" fill="#BA7517"/><rect x="76" y="74" width="8" height="50" fill="#BA7517"/><rect x="116" y="74" width="8" height="50" fill="#BA7517"/><rect x="148" y="74" width="8" height="50" fill="#BA7517"/><rect x="194" y="74" width="8" height="50" fill="#BA7517"/><rect x="258" y="74" width="8" height="50" fill="#BA7517"/><rect x="158" y="82" width="36" height="8" fill="#FAC775" stroke="#BA7517" stroke-width="1" transform="rotate(-12 176 86)"/><path d="M166,136 L184,118" stroke="#854F0B" stroke-width="3.5" stroke-linecap="round"/><rect x="178" y="110" width="15" height="8" rx="1" fill="#5F5E5A" transform="rotate(-45 185 114)"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+<linearGradient id="field6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C7DFA0"/><stop offset="1" stop-color="#A9C97E"/></linearGradient>
+<radialGradient id="woolTex" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4E0D4"/></radialGradient>
+</defs>
+<rect width="280" height="98" fill="url(#sky6)"/>
+<rect y="98" width="280" height="52" fill="url(#field6)"/>
+<g>
+<ellipse cx="96" cy="106" rx="17" ry="12" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<circle cx="86" cy="97" r="6.4" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<circle cx="100" cy="96" r="6.4" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<ellipse cx="78" cy="103" rx="6.6" ry="7.6" fill="#4A4641"/>
+<circle cx="76" cy="101" r="1.1" fill="#fff" opacity=".7"/>
+<path d="M86,116 v8 M104,116 v8" stroke="#4A4641" stroke-width="2.4"/>
+</g>
+<g>
+<ellipse cx="230" cy="108" rx="15" ry="11" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<circle cx="222" cy="100" r="5.6" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<circle cx="234" cy="99" r="5.6" fill="url(#woolTex)" stroke="#B4B2A9" stroke-width=".8"/>
+<ellipse cx="246" cy="105" rx="5.6" ry="6.6" fill="#4A4641"/>
+<path d="M221,117 v7 M235,117 v7" stroke="#4A4641" stroke-width="2.2"/>
+</g>
+<path d="M40,86 H150 M40,108 H150 M196,86 H262 M196,108 H262" stroke="#B9822F" stroke-width="6.5"/>
+<rect x="36" y="74" width="8" height="50" fill="#8A5F38"/><rect x="76" y="74" width="8" height="50" fill="#8A5F38"/><rect x="116" y="74" width="8" height="50" fill="#8A5F38"/><rect x="148" y="74" width="8" height="50" fill="#8A5F38"/><rect x="194" y="74" width="8" height="50" fill="#8A5F38"/><rect x="258" y="74" width="8" height="50" fill="#8A5F38"/>
+<rect x="158" y="82" width="36" height="8" fill="#D9A857" stroke="#8A5F38" stroke-width="1" transform="rotate(-12 176 86)"/>
+<path d="M166,136 L184,118" stroke="#6E4A28" stroke-width="3.6" stroke-linecap="round"/>
+<rect x="178" y="110" width="15" height="8" rx="1" fill="#7C7869" transform="rotate(-45 185 114)"/>
+</svg>`
 },
 {
   id: 'ya-miao-zhu-zhang', cat: '歷史寓言',
@@ -335,7 +409,33 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['揠苗助長', '刻舟求劍'], answer: '揠苗助長'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><circle cx="36" cy="28" r="12" fill="#FAC775"/><rect y="105" width="280" height="45" fill="#C9A27A"/><path d="M0,120 H280 M0,136 H280" stroke="#B08A62" stroke-width="1.5"/><g stroke="#639922" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M30,105 V92 M30,97 Q24,91 22,86 M30,97 Q36,91 38,86"/><path d="M62,105 V92 M62,97 Q56,91 54,86 M62,97 Q68,91 70,86"/><path d="M94,105 V92 M94,97 Q88,91 86,86 M94,97 Q100,91 102,86"/></g><g stroke="#BA7517" stroke-width="2.5" fill="none" stroke-linecap="round"><path d="M140,98 V64 M140,72 Q131,70 128,82 M140,68 Q149,66 152,78"/><path d="M172,98 V60 M172,68 Q163,66 160,78 M172,64 Q181,62 184,74"/></g><g stroke="#F1EFE8" stroke-width="1.5" stroke-linecap="round"><path d="M140,98 l-4,6 M140,98 v7 M140,98 l4,6 M172,98 l-4,6 M172,98 v7 M172,98 l4,6 M205,98 l-4,6 M205,98 v7 M205,98 l4,6"/></g><path d="M205,98 V66 M205,74 Q196,72 193,84 M205,70 Q214,68 217,80" stroke="#97C459" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M222,124 Q224,90 238,88 Q252,90 254,124 Z" fill="#378ADD"/><circle cx="238" cy="78" r="8" fill="#F5C4B3"/><polygon points="220,72 238,59 256,72" fill="#FAC775" stroke="#BA7517" stroke-width="1"/><path d="M229,95 L208,70" stroke="#F5C4B3" stroke-width="4" stroke-linecap="round"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+<linearGradient id="field7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3B584"/><stop offset="1" stop-color="#B9955F"/></linearGradient>
+</defs>
+<rect width="280" height="105" fill="url(#sky7)"/>
+<circle cx="36" cy="28" r="12" fill="#FBCB78"/>
+<rect y="105" width="280" height="45" fill="url(#field7)"/>
+<path d="M0,120 H280 M0,136 H280" stroke="#A17A48" stroke-width="1.2" opacity=".6"/>
+<g stroke-linecap="round" fill="none">
+<path d="M30,105 V92" stroke="#5A9A42" stroke-width="3"/><path d="M30,97 Q24,91 22,86" stroke="#5A9A42" stroke-width="2.4"/><path d="M30,97 Q36,91 38,86" stroke="#5A9A42" stroke-width="2.4"/>
+<path d="M62,105 V92" stroke="#5A9A42" stroke-width="3"/><path d="M62,97 Q56,91 54,86" stroke="#5A9A42" stroke-width="2.4"/><path d="M62,97 Q68,91 70,86" stroke="#5A9A42" stroke-width="2.4"/>
+<path d="M94,105 V92" stroke="#5A9A42" stroke-width="3"/><path d="M94,97 Q88,91 86,86" stroke="#5A9A42" stroke-width="2.4"/><path d="M94,97 Q100,91 102,86" stroke="#5A9A42" stroke-width="2.4"/>
+</g>
+<g stroke-linecap="round" fill="none">
+<path d="M140,98 V64" stroke="#B9822F" stroke-width="3"/><path d="M140,72 Q131,70 128,82" stroke="#B9822F" stroke-width="2.4"/><path d="M140,68 Q149,66 152,78" stroke="#B9822F" stroke-width="2.4"/>
+<path d="M172,98 V60" stroke="#B9822F" stroke-width="3"/><path d="M172,68 Q163,66 160,78" stroke="#B9822F" stroke-width="2.4"/><path d="M172,64 Q181,62 184,74" stroke="#B9822F" stroke-width="2.4"/>
+</g>
+<path d="M140,98 l-4,6 M140,98 v7 M140,98 l4,6 M172,98 l-4,6 M172,98 v7 M172,98 l4,6" stroke="#F1EFE8" stroke-width="1.4" stroke-linecap="round"/>
+<g stroke-linecap="round" fill="none"><path d="M205,98 V66" stroke="#5A9A42" stroke-width="3"/><path d="M205,74 Q196,72 193,84" stroke="#5A9A42" stroke-width="2.4"/><path d="M205,70 Q214,68 217,80" stroke="#5A9A42" stroke-width="2.4"/></g>
+<path d="M205,98 l-4,6 M205,98 v7 M205,98 l4,6" stroke="#F1EFE8" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M222,124 Q224,90 238,88 Q252,90 254,124Z" fill="#4A9BE0"/>
+<circle cx="238" cy="78" r="9" fill="#F0C4A6"/>
+<polygon points="220,72 238,58 256,72" fill="#D9A857" stroke="#8A5F38"/>
+<path d="M234,80 h2 M241,80 h2" stroke="#2C2C2A" stroke-width="1.4" stroke-linecap="round"/>
+<path d="M229,96 L208,70" stroke="#F0C4A6" stroke-width="4.5" stroke-linecap="round"/>
+</svg>`
 },
 {
   id: 'zi-xiang-mao-dun', cat: '歷史寓言',
@@ -367,7 +467,25 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['自相矛盾', '掩耳盜鈴'], answer: '自相矛盾'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="132" width="280" height="18" fill="#FAC775"/><circle cx="104" cy="78" r="46" fill="#BA7517" stroke="#633806" stroke-width="3"/><circle cx="104" cy="78" r="31" fill="#EF9F27"/><circle cx="104" cy="78" r="9" fill="#633806"/><path d="M104,47 V56 M104,100 V109 M73,78 H82 M126,78 H135" stroke="#854F0B" stroke-width="3" stroke-linecap="round"/><path d="M268,78 H184" stroke="#854F0B" stroke-width="5" stroke-linecap="round"/><polygon points="184,69 156,78 184,87" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="1.5"/><path d="M188,80 q5,10 -2,18 M193,80 q4,10 0,18" stroke="#E24B4A" stroke-width="2" fill="none" stroke-linecap="round"/><text x="210" y="50" font-size="40" font-weight="700" fill="#D85A30" font-family="sans-serif">?</text><text x="36" y="36" font-size="28" font-weight="700" fill="#D85A30" font-family="sans-serif">?</text></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="shieldFace" cx=".4" cy=".35" r=".75"><stop offset="0" stop-color="#F0B84A"/><stop offset="1" stop-color="#C4841A"/></radialGradient>
+<linearGradient id="spearTip" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8E4D8"/><stop offset="1" stop-color="#A9A498"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#F7EEDA"/>
+<rect y="132" width="280" height="18" fill="#D9A857"/>
+<circle cx="104" cy="78" r="47" fill="#8A5F1A" stroke="#5A3C0E" stroke-width="2.6"/>
+<circle cx="104" cy="78" r="33" fill="url(#shieldFace)"/>
+<circle cx="104" cy="78" r="10" fill="#5A3C0E"/>
+<ellipse cx="94" cy="66" rx="10" ry="5" fill="#FCE3A8" opacity=".7"/>
+<path d="M104,45 V57 M104,99 V111 M71,78 H83 M125,78 H137" stroke="#5A3C0E" stroke-width="3.2" stroke-linecap="round"/>
+<path d="M270,78 H186" stroke="#7C5A34" stroke-width="5.5" stroke-linecap="round"/>
+<path d="M270,76 H186" stroke="#B9895A" stroke-width="1.4" opacity=".6"/>
+<polygon points="186,66 152,78 186,90" fill="url(#spearTip)" stroke="#6A6458" stroke-width="1.4"/>
+<path d="M190,80 q5,10 -2,18 M195,80 q4,10 0,18" stroke="#E64A3A" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<text x="212" y="52" font-size="42" font-weight="700" fill="#D9432B" font-family="sans-serif">?</text>
+<text x="36" y="38" font-size="30" font-weight="700" fill="#D9432B" font-family="sans-serif">?</text>
+</svg>`
 },
 {
   id: 'ke-zhou-qiu-jian', cat: '歷史寓言',
@@ -399,7 +517,30 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['刻舟求劍', '揠苗助長'], answer: '刻舟求劍'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><path d="M0,72 Q17,66 35,72 T70,72 T105,72 T140,72 T175,72 T210,72 T245,72 T280,72 V150 H0Z" fill="#85B7EB"/><path d="M0,136 Q70,128 140,136 T280,136 V150 H0Z" fill="#FAC775"/><path d="M92,50 V74" stroke="#854F0B" stroke-width="3"/><circle cx="92" cy="42" r="7" fill="#F5C4B3"/><path d="M84,74 Q86,54 92,52 Q98,54 100,74Z" fill="#378ADD"/><path d="M98,58 L118,70" stroke="#F5C4B3" stroke-width="3" stroke-linecap="round"/><path d="M60,70 H200 L185,92 H75 Z" fill="#BA7517"/><path d="M60,70 H200" stroke="#854F0B" stroke-width="2"/><path d="M124,76 l8,8 M132,76 l-8,8" stroke="#E24B4A" stroke-width="2.5" stroke-linecap="round"/><path d="M128,94 V130" stroke="#E24B4A" stroke-width="1.2" stroke-dasharray="3 3"/><path d="M210,60 H244" stroke="#0C447C" stroke-width="2" stroke-linecap="round"/><polygon points="244,55 254,60 244,65" fill="#0C447C"/><path d="M26,130 L62,124" stroke="#B4B2A9" stroke-width="4" stroke-linecap="round"/><path d="M60,118 L64,130" stroke="#633806" stroke-width="3" stroke-linecap="round"/><path d="M64,124 L72,123" stroke="#854F0B" stroke-width="3" stroke-linecap="round"/><path d="M20,100 q6,-4 12,0 M220,110 q6,-4 12,0 M150,112 q6,-4 12,0" stroke="#E6F1FB" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+<linearGradient id="water8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FC3EE"/><stop offset="1" stop-color="#4E93D0"/></linearGradient>
+<linearGradient id="boatWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9A857"/><stop offset="1" stop-color="#B9822F"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky8)"/>
+<path d="M0,72 Q17,66 35,72 T70,72 T105,72 T140,72 T175,72 T210,72 T245,72 T280,72 V150 H0Z" fill="url(#water8)"/>
+<path d="M0,80 Q35,74 70,80 T140,80 T210,80 T280,80" stroke="#BEE0F5" stroke-width="1.6" fill="none" opacity=".6"/>
+<path d="M0,136 Q70,128 140,136 T280,136 V150 H0Z" fill="#E8C87A"/>
+<path d="M92,50 V74" stroke="#7C5A34" stroke-width="3.4"/>
+<circle cx="92" cy="42" r="8" fill="#F0C4A6"/>
+<path d="M84,74 Q86,54 92,52 Q98,54 100,74Z" fill="#4A9BE0"/>
+<path d="M98,58 L118,70" stroke="#F0C4A6" stroke-width="3.6" stroke-linecap="round"/>
+<polygon points="60,70 200,70 185,92 75,92" fill="url(#boatWood)" stroke="#8A5F1A" stroke-width="1.4"/>
+<path d="M65,80 H195" stroke="#8A5F1A" stroke-width="1" opacity=".5"/>
+<path d="M124,76 l8,8 M132,76 l-8,8" stroke="#E64A3A" stroke-width="2.6" stroke-linecap="round"/>
+<path d="M128,94 V130" stroke="#E64A3A" stroke-width="1.2" stroke-dasharray="3 3"/>
+<path d="M210,60 H244" stroke="#0C447C" stroke-width="2" stroke-linecap="round"/>
+<polygon points="244,55 254,60 244,65" fill="#0C447C"/>
+<path d="M26,130 L62,124" stroke="#B4B2A9" stroke-width="4" stroke-linecap="round"/>
+<path d="M60,118 L64,130" stroke="#5A3C0E" stroke-width="3" stroke-linecap="round"/>
+<path d="M64,124 L72,123" stroke="#8A5F1A" stroke-width="3" stroke-linecap="round"/>
+</svg>`
 },
 {
   id: 'yan-er-dao-ling', cat: '歷史寓言',
@@ -432,7 +573,29 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['掩耳盜鈴', '自相矛盾'], answer: '掩耳盜鈴'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="125" width="280" height="25" fill="#D3D1C7"/><path d="M40,125 Q42,94 60,92 Q78,94 80,125Z" fill="#378ADD"/><circle cx="60" cy="72" r="16" fill="#F5C4B3"/><path d="M44,68 Q46,54 60,54 Q74,54 76,68 Q68,60 60,61 Q52,60 44,68Z" fill="#2C2C2A"/><path d="M52,74 q3,-3 6,0 M62,74 q3,-3 6,0" stroke="#2C2C2A" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M56,82 q4,2 8,0" stroke="#993C1D" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M48,100 L43,80 M72,100 L77,80" stroke="#F5C4B3" stroke-width="5" stroke-linecap="round"/><ellipse cx="43" cy="73" rx="6" ry="9" fill="#F5C4B3" stroke="#D85A30" stroke-width="1"/><ellipse cx="77" cy="73" rx="6" ry="9" fill="#F5C4B3" stroke="#D85A30" stroke-width="1"/><rect x="159" y="18" width="14" height="12" rx="2" fill="#854F0B"/><path d="M150,30 L182,30 L194,102 Q166,112 138,102 Z" fill="#BA7517" stroke="#633806" stroke-width="2"/><g fill="#EF9F27"><circle cx="156" cy="46" r="3"/><circle cx="166" cy="46" r="3"/><circle cx="176" cy="46" r="3"/><circle cx="154" cy="58" r="3"/><circle cx="166" cy="58" r="3"/><circle cx="178" cy="58" r="3"/></g><path d="M160,70 l7,10 l-5,9 l6,8" stroke="#633806" stroke-width="2" fill="none" stroke-linecap="round"/><path d="M204,52 q10,16 0,32 M216,44 q16,24 0,48 M128,52 q-10,16 0,32 M116,44 q-16,24 0,48" stroke="#D85A30" stroke-width="2.5" fill="none" stroke-linecap="round"/><path d="M214,124 L250,114" stroke="#854F0B" stroke-width="3.5" stroke-linecap="round"/><rect x="246" y="106" width="9" height="16" rx="1" fill="#5F5E5A" transform="rotate(-15 250 114)"/></svg>`
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bellBody" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B9822F"/><stop offset=".5" stop-color="#E8B85A"/><stop offset="1" stop-color="#8A5F1A"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#F7EEDA"/>
+<rect y="128" width="280" height="22" fill="#D3D1C7"/>
+<path d="M42,128 Q44,96 60,94 Q76,96 78,128Z" fill="#4A9BE0"/>
+<circle cx="60" cy="74" r="17" fill="#F0C4A6"/>
+<path d="M44,70 Q46,54 60,54 Q74,54 76,70 Q68,60 60,61 Q52,60 44,70Z" fill="#3A3A38"/>
+<path d="M52,76 q3,-3 6,0 M62,76 q3,-3 6,0" stroke="#2C2C2A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M56,84 q4,2 8,0" stroke="#A85A38" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M48,102 L43,80 M72,102 L77,80" stroke="#F0C4A6" stroke-width="5.4" stroke-linecap="round"/>
+<ellipse cx="43" cy="74" rx="6.4" ry="9.4" fill="#F0C4A6" stroke="#C98A5A" stroke-width="1"/>
+<ellipse cx="77" cy="74" rx="6.4" ry="9.4" fill="#F0C4A6" stroke="#C98A5A" stroke-width="1"/>
+<rect x="159" y="18" width="14" height="12" rx="2" fill="#7C5A34"/>
+<path d="M150,30 L182,30 L194,102 Q166,113 138,102 Z" fill="url(#bellBody)" stroke="#5A3C0E" stroke-width="1.6"/>
+<path d="M160,40 Q166,90 160,100" stroke="#FCE3A8" stroke-width="3" fill="none" opacity=".5"/>
+<g fill="#8A5F1A"><circle cx="156" cy="46" r="3"/><circle cx="166" cy="46" r="3"/><circle cx="176" cy="46" r="3"/><circle cx="154" cy="58" r="3"/><circle cx="166" cy="58" r="3"/><circle cx="178" cy="58" r="3"/></g>
+<path d="M160,70 l7,10 l-5,9 l6,8" stroke="#5A3C0E" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<path d="M204,52 q10,16 0,32 M216,44 q16,24 0,48 M128,52 q-10,16 0,32 M116,44 q-16,24 0,48" stroke="#D9432B" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<path d="M214,124 L250,114" stroke="#7C5A34" stroke-width="3.4" stroke-linecap="round"/>
+<rect x="246" y="106" width="9" height="16" rx="1" fill="#7C7869" transform="rotate(-15 250 114)"/>
+</svg>`
 }
 ,
 {
@@ -465,16 +628,41 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['對牛彈琴', '鶴立雞群'], answer: '對牛彈琴'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><circle cx="242" cy="26" r="12" fill="#FAC775"/><rect y="122" width="280" height="28" fill="#C0DD97"/>
-<ellipse cx="80" cy="112" rx="34" ry="18" fill="#B4B2A9"/><rect x="58" y="122" width="7" height="14" fill="#5F5E5A"/><rect x="96" y="122" width="7" height="14" fill="#5F5E5A"/>
-<circle cx="46" cy="98" r="14" fill="#B4B2A9"/><polygon points="36,88 32,76 42,86" fill="#B4B2A9"/><polygon points="52,88 58,76 48,86" fill="#B4B2A9"/><circle cx="41" cy="97" r="1.8" fill="#2C2C2A"/><circle cx="49" cy="97" r="1.8" fill="#2C2C2A"/>
-<polygon class="a-wag" points="112,104 126,100 126,110" fill="#B4B2A9" style="transform-origin:112px 104px"/>
-<rect x="150" y="96" width="6" height="26" fill="#EF9F27"/><polygon points="153,86 138,96 168,96" fill="#FAC775" stroke="#BA7517"/>
-<ellipse cx="153" cy="100" rx="10" ry="6" fill="#F5C4B3"/>
-<rect x="172" y="112" width="70" height="12" rx="2" fill="#993C1D"/>
-<path d="M180,114 V122 M192,114 V122 M204,114 V122 M216,114 V122 M228,114 V122" stroke="#FAC775" stroke-width="1.2"/>
-<circle class="a-bob" cx="230" cy="70" r="5" fill="none" stroke="#3D8B5E" stroke-width="2"/>
-<circle class="a-bob" cx="246" cy="58" r="4" fill="none" stroke="#3D8B5E" stroke-width="2" style="animation-delay:.4s"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FCF4E4"/><stop offset="1" stop-color="#F3E4BE"/></linearGradient>
+<radialGradient id="cowHide" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#D9D5C8"/><stop offset="1" stop-color="#ADA898"/></radialGradient>
+<linearGradient id="robeCol" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5CAA6A"/><stop offset="1" stop-color="#3E7A46"/></linearGradient>
+<linearGradient id="qinWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B9723E"/><stop offset="1" stop-color="#8A4E24"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky9)"/>
+<circle cx="242" cy="26" r="12" fill="#FBCB78"/>
+<rect y="122" width="280" height="28" fill="#C7DFA0"/>
+<path d="M0,124 Q30,118 60,124" stroke="#A9C97E" stroke-width="2" fill="none"/>
+
+<ellipse cx="80" cy="112" rx="35" ry="18" fill="url(#cowHide)" stroke="#8A8478" stroke-width="1"/>
+<path d="M52,110 Q80,124 108,110" stroke="#8A8478" stroke-width="1.2" fill="none" opacity=".5"/>
+<rect x="58" y="122" width="7" height="14" fill="#7C7869"/><rect x="96" y="122" width="7" height="14" fill="#7C7869"/>
+<circle cx="46" cy="98" r="15" fill="url(#cowHide)" stroke="#8A8478" stroke-width="1"/>
+<polygon points="35,86 30,72 42,84" fill="#CFCBBF" stroke="#8A8478" stroke-width=".8"/><polygon points="53,86 60,72 48,84" fill="#CFCBBF" stroke="#8A8478" stroke-width=".8"/>
+<ellipse cx="38" cy="104" rx="5" ry="4" fill="#E8C9AA"/><ellipse cx="54" cy="104" rx="5" ry="4" fill="#E8C9AA"/>
+<circle cx="41" cy="97" r="2" fill="#2C2C2A"/><circle cx="49" cy="97" r="2" fill="#2C2C2A"/>
+<circle cx="41.7" cy="96.3" r=".6" fill="#fff"/><circle cx="49.7" cy="96.3" r=".6" fill="#fff"/>
+<path d="M32,108 Q46,114 60,108" stroke="#5F5E5A" stroke-width="1" fill="none" opacity=".5"/>
+<polygon points="112,104 128,99 128,111" fill="url(#cowHide)" stroke="#8A8478" stroke-width=".8"/>
+
+<rect x="150" y="94" width="6" height="28" fill="#7C5A34"/>
+<polygon points="153,84 136,96 170,96" fill="url(#robeCol)" stroke="#2A5A32"/>
+<path d="M140,96 Q153,80 166,96 Q160,116 153,120 Q146,116 140,96Z" fill="url(#robeCol)" stroke="#2A5A32" stroke-width="1"/>
+<ellipse cx="153" cy="100" rx="10.5" ry="6.4" fill="#F0C4A6"/>
+<circle cx="150" cy="98" r="1.3" fill="#2C2C2A"/><circle cx="156" cy="98" r="1.3" fill="#2C2C2A"/>
+
+<rect x="172" y="110" width="72" height="14" rx="3" fill="url(#qinWood)" stroke="#5A3818" stroke-width="1"/>
+<rect x="172" y="110" width="72" height="4" fill="#D9A65E" opacity=".6"/>
+<path d="M180,114 V122 M192,114 V122 M204,114 V122 M216,114 V122 M228,114 V122" stroke="#E8C398" stroke-width="1.2"/>
+
+<circle cx="230" cy="70" r="5.4" fill="none" stroke="#3D8B5E" stroke-width="2.2"/>
+<circle cx="246" cy="58" r="4.2" fill="none" stroke="#3D8B5E" stroke-width="2.2"/>
 </svg>`
 },
 {
@@ -507,15 +695,29 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['杯弓蛇影', '完璧歸趙'], answer: '杯弓蛇影'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#D3D1C7"/>
-<path d="M190,20 Q230,10 226,60" stroke="#854F0B" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M190,20 L226,60" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="2 2"/>
-<rect x="80" y="118" width="120" height="10" rx="2" fill="#993C1D"/><rect x="88" y="108" width="6" height="14" fill="#5F5E5A"/><rect x="188" y="108" width="6" height="14" fill="#5F5E5A"/>
-<path d="M126,118 Q124,90 140,90 Q156,90 154,118Z" fill="#EAF3EA" stroke="#B4B2A9"/>
-<path class="a-wag" d="M132,110 q6,-14 16,0 q-8,4 -16,0Z" fill="#639922" opacity=".8" style="transform-origin:140px 104px"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="tableWood" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B9723E"/><stop offset="1" stop-color="#8A4E24"/></linearGradient>
+<radialGradient id="cupGlass" cx=".4" cy=".3" r=".8"><stop offset="0" stop-color="#F5F5EE"/><stop offset="1" stop-color="#D3D1C7"/></radialGradient>
+</defs>
+<rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#D3D1C7"/>
+<path d="M190,20 Q230,10 226,60" stroke="#7C5A34" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+<path d="M190,20 Q228,26 224,58" stroke="#B9723E" stroke-width="1.4" fill="none" opacity=".6"/>
+<path d="M190,20 L226,60" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="2 2"/>
+<rect x="80" y="118" width="120" height="10" rx="2" fill="url(#tableWood)" stroke="#5A3818" stroke-width="1"/>
+<rect x="88" y="108" width="6" height="14" fill="#5F5E5A"/><rect x="188" y="108" width="6" height="14" fill="#5F5E5A"/>
+<path d="M126,118 Q124,90 140,90 Q156,90 154,118Z" fill="url(#cupGlass)" stroke="#A9A498"/>
+<ellipse cx="140" cy="90" rx="14" ry="4" fill="#E8E4D8"/>
+<path class="a-wag" d="M132,110 q6,-14 16,0 q-8,4 -16,0Z" fill="#3E7A46" opacity=".85" style="transform-origin:140px 104px"/>
 <circle cx="136" cy="106" r="1.6" fill="#2C2C2A"/>
-<ellipse cx="60" cy="106" rx="16" ry="18" fill="#F5C4B3"/><path d="M46,98 Q60,82 74,98 Q68,90 60,91 Q52,90 46,98Z" fill="#2C2C2A"/>
-<circle class="a-blink" cx="55" cy="104" r="1.8" fill="#2C2C2A"/><circle class="a-blink" cx="65" cy="104" r="1.8" fill="#2C2C2A"/>
-<path d="M50,116 Q60,122 70,116" stroke="#D85A30" stroke-width="1.5" fill="none"/>
+<path d="M40,120 Q44,102 60,102 Q76,102 80,120 L80,128 Q60,134 40,128Z" fill="#3E7A46" stroke="#2A5A32" stroke-width="1"/>
+<ellipse cx="60" cy="98" rx="15" ry="16" fill="#F0C4A6"/>
+<path d="M46,90 Q60,74 74,90 Q68,82 60,83 Q52,82 46,90Z" fill="#3A3028"/>
+<circle cx="55" cy="96" r="1.9" fill="#2C2C2A"/><circle cx="65" cy="96" r="1.9" fill="#2C2C2A"/>
+<circle cx="55.6" cy="95.3" r=".5" fill="#fff"/><circle cx="65.6" cy="95.3" r=".5" fill="#fff"/>
+<path d="M50,108 Q60,114 70,108" stroke="#C4644A" stroke-width="1.6" fill="none"/>
+<ellipse cx="38" cy="94" rx="5.6" ry="7" fill="#F0C4A6" stroke="#D9A87A" stroke-width=".8"/>
+<ellipse cx="82" cy="94" rx="5.6" ry="7" fill="#F0C4A6" stroke="#D9A87A" stroke-width=".8"/>
 </svg>`
 },
 {
@@ -548,19 +750,26 @@ window.IDIOMS = [
     after: ['，非常好認。', 'ㄈㄟ ㄔㄤˊ ㄏㄠˇ ㄖㄣˋ'],
     options: ['鶴立雞群', '杯弓蛇影'], answer: '鶴立雞群'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="120" width="280" height="30" fill="#C0DD97"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+<linearGradient id="field10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C7DFA0"/><stop offset="1" stop-color="#A9C97E"/></linearGradient>
+<radialGradient id="craneWhite" cx=".4" cy=".3" r=".85"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E4E0D4"/></radialGradient>
+</defs>
+<rect width="280" height="120" fill="url(#sky10)"/><rect y="120" width="280" height="30" fill="url(#field10)"/>
 <g class="a-bob" style="transform-origin:170px 60px">
-<path d="M170,120 V78" stroke="#EAF3EA" stroke-width="5" stroke-linecap="round"/>
-<path d="M170,80 Q168,55 190,48" stroke="#FFFFFF" stroke-width="7" fill="none" stroke-linecap="round"/>
-<ellipse cx="150" cy="86" rx="20" ry="14" fill="#FFFFFF" stroke="#D3D1C7"/>
-<circle cx="194" cy="46" r="9" fill="#FFFFFF" stroke="#D3D1C7"/>
-<polygon points="202,44 214,47 202,50" fill="#D85A30"/>
-<circle cx="197" cy="43" r="1.6" fill="#2C2C2A"/>
-<path d="M192,38 Q194,32 198,38" stroke="#D85A30" stroke-width="1.5" fill="none"/>
+<path d="M170,120 V78" stroke="#E4E0D4" stroke-width="5.4" stroke-linecap="round"/>
+<path d="M170,80 Q168,55 190,48" stroke="url(#craneWhite)" stroke-width="7.6" fill="none" stroke-linecap="round"/>
+<ellipse cx="150" cy="86" rx="21" ry="15" fill="url(#craneWhite)" stroke="#C9C5B8" stroke-width="1"/>
+<path d="M132,84 Q150,98 168,86" stroke="#C9C5B8" stroke-width="1" fill="none" opacity=".5"/>
+<circle cx="194" cy="46" r="9.4" fill="url(#craneWhite)" stroke="#C9C5B8" stroke-width="1"/>
+<polygon points="202,44 216,47.5 202,51" fill="#D9432B"/>
+<circle cx="197" cy="43" r="1.8" fill="#2C2C2A"/>
+<path d="M192,38 Q194,32 198,38" stroke="#D9432B" stroke-width="1.6" fill="none"/>
 </g>
-<g><ellipse cx="66" cy="126" rx="15" ry="10" fill="#BA7517"/><circle cx="62" cy="114" r="7" fill="#BA7517"/><polygon points="68,110 78,112 68,116" fill="#D85A30"/><polygon points="56,105 60,97 64,107" fill="#D85A30"/><circle cx="65" cy="112" r="1.5" fill="#2C2C2A"/><rect x="59" y="134" width="4" height="7" fill="#993C1D"/><rect x="71" y="134" width="4" height="7" fill="#993C1D"/></g>
-<g><ellipse cx="106" cy="130" rx="13" ry="9" fill="#EF9F27"/><circle cx="102" cy="119" r="6" fill="#EF9F27"/><polygon points="107,116 116,118 107,121" fill="#D85A30"/><polygon points="97,111 100,104 104,113" fill="#D85A30"/><circle cx="105" cy="117" r="1.4" fill="#2C2C2A"/><rect x="99" y="137" width="4" height="6" fill="#854F0B"/><rect x="109" y="137" width="4" height="6" fill="#854F0B"/></g>
-<g><ellipse cx="222" cy="128" rx="12" ry="8" fill="#993C1D"/><circle cx="218" cy="118" r="5.5" fill="#993C1D"/><polygon points="222,115 230,117 222,120" fill="#D85A30"/><circle cx="221" cy="117" r="1.3" fill="#2C2C2A"/><rect x="215" y="135" width="4" height="6" fill="#5F5E5A"/><rect x="224" y="135" width="4" height="6" fill="#5F5E5A"/></g>
+<g><ellipse cx="66" cy="126" rx="15.4" ry="10.4" fill="#B9722A"/><circle cx="62" cy="114" r="7.4" fill="#B9722A"/><polygon points="68,110 78,112 68,116" fill="#D9432B"/><polygon points="56,105 60,97 64,107" fill="#D9432B"/><circle cx="65" cy="112" r="1.5" fill="#2C2C2A"/><rect x="59" y="134" width="4" height="7" fill="#8A5F1A"/><rect x="71" y="134" width="4" height="7" fill="#8A5F1A"/><path d="M55,120 Q66,128 78,120" stroke="#8A5F1A" stroke-width="1" fill="none" opacity=".4"/></g>
+<g><ellipse cx="106" cy="130" rx="13.4" ry="9.4" fill="#E8952A"/><circle cx="102" cy="119" r="6.4" fill="#E8952A"/><polygon points="107,116 116,118 107,121" fill="#D9432B"/><polygon points="97,111 100,104 104,113" fill="#D9432B"/><circle cx="105" cy="117" r="1.4" fill="#2C2C2A"/><rect x="99" y="137" width="4" height="6" fill="#B9722A"/><rect x="109" y="137" width="4" height="6" fill="#B9722A"/></g>
+<g><ellipse cx="222" cy="128" rx="12.4" ry="8.4" fill="#8A5F1A"/><circle cx="218" cy="118" r="5.9" fill="#8A5F1A"/><polygon points="222,115 230,117 222,120" fill="#D9432B"/><circle cx="221" cy="117" r="1.3" fill="#2C2C2A"/><rect x="215" y="135" width="4" height="6" fill="#5F5E5A"/><rect x="224" y="135" width="4" height="6" fill="#5F5E5A"/></g>
 </svg>`
 },
 {
@@ -884,15 +1093,21 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['驚弓之鳥', '老馬識途'], answer: '驚弓之鳥'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="128" width="280" height="22" fill="#C0DD97"/>
-<circle cx="46" cy="30" r="12" fill="#FAC775"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky13" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky13)"/><rect y="128" width="280" height="22" fill="#C7DFA0"/>
+<circle cx="46" cy="30" r="12" fill="#FBCB78"/>
 <g class="a-bob" style="transform-origin:170px 70px">
-<path d="M150,80 Q170,50 200,66" stroke="#5F5E5A" stroke-width="4" fill="none" stroke-linecap="round"/>
-<ellipse cx="200" cy="68" rx="16" ry="9" fill="#5F5E5A"/><polygon points="214,64 228,68 214,72" fill="#D85A30"/>
-<circle cx="210" cy="65" r="1.6" fill="#EAF3EA"/>
+<path d="M150,80 Q170,50 200,66" stroke="#7C7869" stroke-width="4.4" fill="none" stroke-linecap="round"/>
+<ellipse cx="200" cy="68" rx="16" ry="9" fill="#8A8478"/>
+<polygon points="214,64 228,68 214,72" fill="#D9432B"/>
+<circle cx="210" cy="65" r="1.8" fill="#2C2C2A"/>
+<path d="M180,84 l-6,10 M190,88 l-4,10" stroke="#8A8478" stroke-width="1.4" opacity=".5"/>
 </g>
-<path d="M120,40 Q130,34 138,42" stroke="#993C1D" stroke-width="2" fill="none" stroke-linecap="round"/>
-<circle class="a-glow" cx="132" cy="38" r="3" fill="#D6333A"/>
+<path d="M120,40 Q130,34 138,42" stroke="#5A3818" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+<circle class="a-glow" cx="132" cy="38" r="3.4" fill="#D9432B"/>
 <path d="M108,34 L138,42" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="2 2"/>
 </svg>`
 },
@@ -926,20 +1141,32 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['老馬識途', '驚弓之鳥'], answer: '老馬識途'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><polygon points="0,110 70,50 140,110" fill="#97C459" opacity=".6"/><rect y="118" width="280" height="32" fill="#C0DD97"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky11" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3EEDC"/><stop offset="1" stop-color="#E8DCC0"/></linearGradient>
+<radialGradient id="horseGrey" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#D3CFC2"/><stop offset="1" stop-color="#9C978A"/></radialGradient>
+<radialGradient id="horseBrown" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#C4854A"/><stop offset="1" stop-color="#8A5218"/></radialGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky11)"/>
+<polygon points="0,110 70,50 140,110" fill="#A9C97E" opacity=".5"/>
+<rect y="118" width="280" height="32" fill="#C7DFA0"/>
 <g style="transform-origin:170px 122px">
-<rect x="150" y="118" width="6" height="20" fill="#5F5E5A"/><rect x="166" y="120" width="6" height="18" fill="#5F5E5A"/><rect x="182" y="120" width="6" height="18" fill="#5F5E5A"/><rect x="198" y="118" width="6" height="20" fill="#5F5E5A"/>
-<ellipse cx="178" cy="108" rx="30" ry="15" fill="#B4B2A9"/>
-<path d="M204,100 Q218,92 216,80" stroke="#B4B2A9" stroke-width="8" fill="none" stroke-linecap="round"/>
-<ellipse cx="220" cy="76" rx="8" ry="7" fill="#B4B2A9"/>
-<circle cx="224" cy="74" r="1.6" fill="#2C2C2A"/>
-<path d="M150,100 Q138,94 142,84" stroke="#5F5E5A" stroke-width="4" fill="none" stroke-linecap="round"/>
+<rect x="150" y="118" width="7" height="20" fill="#7C7869"/><rect x="166" y="120" width="7" height="18" fill="#7C7869"/><rect x="182" y="120" width="7" height="18" fill="#7C7869"/><rect x="198" y="118" width="7" height="20" fill="#7C7869"/>
+<ellipse cx="178" cy="106" rx="31" ry="16" fill="url(#horseGrey)" stroke="#7C7869" stroke-width="1"/>
+<path d="M154,102 Q178,116 202,100" stroke="#7C7869" stroke-width="1" fill="none" opacity=".4"/>
+<path d="M204,98 Q219,90 217,78" stroke="url(#horseGrey)" stroke-width="9" fill="none" stroke-linecap="round"/>
+<ellipse cx="221" cy="75" rx="9" ry="7.6" fill="url(#horseGrey)" stroke="#7C7869" stroke-width="1"/>
+<polygon points="215,66 213,58 221,64" fill="#D3CFC2"/>
+<circle cx="225" cy="73" r="1.8" fill="#2C2C2A"/>
+<path d="M150,98 Q136,92 140,82" stroke="#7C7869" stroke-width="4.4" fill="none" stroke-linecap="round"/>
 </g>
 <g class="a-bob" style="transform-origin:70px 122px;animation-delay:.3s">
-<rect x="50" y="118" width="6" height="20" fill="#993C1D"/><rect x="66" y="120" width="6" height="18" fill="#993C1D"/><rect x="82" y="120" width="6" height="18" fill="#993C1D"/><rect x="98" y="118" width="6" height="20" fill="#993C1D"/>
-<ellipse cx="78" cy="108" rx="28" ry="14" fill="#993C1D"/>
-<path d="M102,100 Q116,92 114,80" stroke="#993C1D" stroke-width="7" fill="none" stroke-linecap="round"/>
-<ellipse cx="118" cy="76" rx="7" ry="6" fill="#993C1D"/><circle cx="122" cy="74" r="1.5" fill="#2C2C2A"/>
+<rect x="50" y="118" width="7" height="20" fill="#5A3818"/><rect x="66" y="120" width="7" height="18" fill="#5A3818"/><rect x="82" y="120" width="7" height="18" fill="#5A3818"/><rect x="98" y="118" width="7" height="20" fill="#5A3818"/>
+<ellipse cx="78" cy="106" rx="29" ry="15" fill="url(#horseBrown)" stroke="#5A3818" stroke-width="1"/>
+<path d="M102,100 Q116,92 114,80" stroke="url(#horseBrown)" stroke-width="8" fill="none" stroke-linecap="round"/>
+<ellipse cx="118" cy="77" rx="8" ry="6.6" fill="url(#horseBrown)" stroke="#5A3818" stroke-width="1"/>
+<polygon points="112,68 110,60 118,66" fill="#C4854A"/>
+<circle cx="122" cy="75" r="1.6" fill="#2C2C2A"/>
 </g>
 </svg>`
 },
@@ -973,24 +1200,33 @@ window.IDIOMS = [
     after: ['的道理。', 'ㄉㄜ˙ ㄉㄠˋ ㄌㄧˇ'],
     options: ['螳螂捕蟬', '老馬識途'], answer: '螳螂捕蟬'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="130" width="280" height="20" fill="#C0DD97"/>
-<rect x="130" y="60" width="8" height="80" fill="#854F0B"/>
-<ellipse class="a-bob" cx="150" cy="80" rx="18" ry="9" fill="#639922" style="transform-origin:150px 80px"/>
-<circle class="a-bob" cx="168" cy="76" r="6" fill="#639922" style="transform-origin:168px 76px"/>
-<circle cx="171" cy="74" r="1.4" fill="#2C2C2A"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3F1FB"/><stop offset="1" stop-color="#CDE7F9"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="url(#sky12)"/><rect y="130" width="280" height="20" fill="#C7DFA0"/>
+<rect x="130" y="45" width="7" height="95" fill="#8A5218"/>
+<ellipse class="a-bob" cx="145" cy="52" rx="8" ry="14" fill="#6FA84E" style="transform-origin:145px 52px" transform="rotate(-20 145 52)"/>
+<circle class="a-bob" cx="148" cy="64" r="6" fill="#3E7A46" style="transform-origin:148px 64px"/>
+<circle cx="150" cy="62" r="1.3" fill="#2C2C2A"/>
 <g class="a-wag" style="transform-origin:150px 100px">
-<ellipse cx="150" cy="102" rx="10" ry="20" fill="#3D8B5E"/>
-<polygon points="144,86 138,74 148,84" fill="#3D8B5E"/><polygon points="156,86 162,74 152,84" fill="#3D8B5E"/>
+<ellipse cx="150" cy="102" rx="10" ry="20" fill="#5CAA6A"/>
+<polygon points="144,86 138,74 148,84" fill="#5CAA6A"/><polygon points="156,86 162,74 152,84" fill="#5CAA6A"/>
 <circle cx="146" cy="90" r="1.6" fill="#2C2C2A"/><circle cx="154" cy="90" r="1.6" fill="#2C2C2A"/>
-<path d="M140,110 L124,120 M160,110 L176,120" stroke="#2B6B47" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<path d="M140,110 L124,120 M160,110 L176,120" stroke="#2A5A32" stroke-width="2.6" fill="none" stroke-linecap="round"/>
 </g>
 <g class="a-glow" style="transform-origin:200px 55px">
-<polygon points="192,66 186,44 202,58" fill="#FAC775"/>
-<circle cx="200" cy="50" r="7" fill="#FAC775"/><circle cx="203" cy="47" r="1.4" fill="#2C2C2A"/>
+<polygon points="192,66 186,44 202,58" fill="#D9A857"/>
+<circle cx="200" cy="50" r="7" fill="#D9A857"/><circle cx="203" cy="47" r="1.4" fill="#2C2C2A"/>
 </g>
-<circle cx="240" cy="70" r="8" fill="none" stroke="#993C1D" stroke-width="2"/>
-<path d="M240,78 V96" stroke="#993C1D" stroke-width="2"/>
-<path d="M240,96 L232,120 M240,96 L248,120" stroke="#993C1D" stroke-width="2"/>
+<g>
+<ellipse cx="245" cy="120" rx="17" ry="8" fill="#3E7A46"/>
+<circle cx="245" cy="102" r="12" fill="#F0C4A6"/>
+<polygon points="233,96 245,84 257,96" fill="#7C5A34"/>
+<circle cx="242" cy="100" r="1.6" fill="#2C2C2A"/>
+<path d="M258,110 L268,88" stroke="#8A5218" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M268,88 Q264,80 268,72" stroke="#5F5E5A" stroke-width="1.4" fill="none"/>
+</g>
 </svg>`
 },
 {
@@ -1023,19 +1259,26 @@ window.IDIOMS = [
     after: ['。', ''],
     options: ['葉公好龍', '狡兔三窟'], answer: '葉公好龍'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#C9A27A"/>
-<rect x="20" y="20" width="150" height="110" fill="#F1EFE8" stroke="#D3D1C7"/>
-<path d="M40,50 Q60,30 80,50 T120,50" stroke="#3D8B5E" stroke-width="6" fill="none" stroke-linecap="round"/>
-<path d="M40,90 Q60,70 80,90 T120,90" stroke="#3D8B5E" stroke-width="6" fill="none" stroke-linecap="round"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="dragonBody" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5CAA6A"/><stop offset="1" stop-color="#2A5A32"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#FBF3E4"/><rect y="130" width="280" height="20" fill="#D9C9A0"/>
+<rect x="20" y="20" width="150" height="110" fill="#F1EFE8" stroke="#B4B2A9"/>
+<path d="M40,50 Q60,30 80,50 T120,50" stroke="#3E7A46" stroke-width="6" fill="none" stroke-linecap="round" opacity=".6"/>
+<path d="M40,90 Q60,70 80,90 T120,90" stroke="#3E7A46" stroke-width="6" fill="none" stroke-linecap="round" opacity=".6"/>
 <g class="a-glow" style="transform-origin:230px 70px">
-<path d="M200,80 Q220,50 250,60 Q270,66 260,90" stroke="#3D8B5E" stroke-width="10" fill="none" stroke-linecap="round"/>
-<polygon points="250,56 262,50 258,64" fill="#3D8B5E"/>
-<circle cx="256" cy="56" r="2" fill="#D6333A"/>
+<path d="M200,80 Q220,50 250,60 Q270,66 260,90" stroke="url(#dragonBody)" stroke-width="11" fill="none" stroke-linecap="round"/>
+<polygon points="250,56 264,50 258,66" fill="url(#dragonBody)"/>
+<circle cx="256" cy="56" r="2.2" fill="#D9432B"/>
+<path d="M254,50 l6,-6 M262,50 l4,-8" stroke="#2A5A32" stroke-width="1.4" stroke-linecap="round"/>
 </g>
-<circle cx="60" cy="115" r="12" fill="#F5C4B3"/>
-<path d="M50,108 Q60,98 70,108" stroke="#2C2C2A" stroke-width="2" fill="none"/>
-<circle cx="56" cy="113" r="1.6" fill="#2C2C2A"/><circle cx="64" cy="113" r="1.6" fill="#2C2C2A"/>
-<ellipse cx="60" cy="122" rx="4" ry="2" fill="#2C2C2A"/>
+<path d="M40,120 Q44,102 60,102 Q76,102 80,120 L80,128 Q60,134 40,128Z" fill="#4A9BE0" stroke="#0C447C" stroke-width="1"/>
+<ellipse cx="60" cy="98" rx="15" ry="16" fill="#F0C4A6"/>
+<path d="M46,90 Q60,74 74,90 Q68,82 60,83 Q52,82 46,90Z" fill="#2C2C2A"/>
+<path d="M50,90 Q60,80 70,90" stroke="#2C2C2A" stroke-width="1.6" fill="none" opacity=".6"/>
+<circle cx="55" cy="97" r="2.1" fill="#2C2C2A"/><circle cx="65" cy="97" r="2.1" fill="#2C2C2A"/>
+<ellipse cx="60" cy="108" rx="5" ry="3" fill="#2C2C2A"/>
 </svg>`
 },
 {
@@ -1068,14 +1311,21 @@ window.IDIOMS = [
     after: ['的做法。', 'ㄉㄜ˙ ㄗㄨㄛˋ ㄈㄚˇ'],
     options: ['狡兔三窟', '螳螂捕蟬'], answer: '狡兔三窟'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><rect y="110" width="280" height="40" fill="#C9A27A"/>
-<ellipse cx="60" cy="120" rx="18" ry="9" fill="#5F5E5A"/><ellipse cx="140" cy="122" rx="18" ry="9" fill="#5F5E5A"/><ellipse cx="220" cy="120" rx="18" ry="9" fill="#5F5E5A"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="ground12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3B584"/><stop offset="1" stop-color="#B9955F"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#E3F1FB"/><rect y="110" width="280" height="40" fill="url(#ground12)"/>
+<ellipse cx="60" cy="120" rx="18" ry="9" fill="#5A3818"/><ellipse cx="140" cy="122" rx="18" ry="9" fill="#5A3818"/><ellipse cx="220" cy="120" rx="18" ry="9" fill="#5A3818"/>
+<ellipse cx="60" cy="120" rx="13" ry="6" fill="#2C2C2A" opacity=".6"/><ellipse cx="220" cy="120" rx="13" ry="6" fill="#2C2C2A" opacity=".6"/>
 <g class="a-bob" style="transform-origin:100px 95px">
 <ellipse cx="100" cy="98" rx="18" ry="12" fill="#F1EFE8" stroke="#B4B2A9"/>
+<path d="M85,100 Q100,110 115,100" stroke="#B4B2A9" stroke-width="1" fill="none" opacity=".5"/>
 <circle cx="80" cy="90" r="9" fill="#F1EFE8" stroke="#B4B2A9"/>
 <ellipse cx="72" cy="80" rx="3" ry="8" fill="#F1EFE8" stroke="#B4B2A9" transform="rotate(-20 72 80)"/>
 <ellipse cx="82" cy="78" rx="3" ry="8" fill="#F1EFE8" stroke="#B4B2A9" transform="rotate(10 82 78)"/>
 <circle cx="76" cy="88" r="1.4" fill="#2C2C2A"/>
+<ellipse cx="66" cy="84" rx="3.4" ry="4.4" fill="#F5D9C4" stroke="#D9A87A" stroke-width=".6"/>
 </g>
 </svg>`
 },
@@ -1109,15 +1359,26 @@ window.IDIOMS = [
     after: ['的結果。', 'ㄉㄜ˙ ㄐㄧㄝˊ ㄍㄨㄛˇ'],
     options: ['鷸蚌相爭', '狡兔三窟'], answer: '鷸蚌相爭'
   },
-  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="150" fill="#E3F1FB"/><path d="M0,90 Q70,80 140,90 T280,90 V150 H0Z" fill="#85B7EB"/><rect y="138" width="280" height="12" fill="#FAC775"/>
-<ellipse cx="130" cy="100" rx="22" ry="14" fill="#4FB3E8" stroke="#0C447C" stroke-width="2"/>
+  art: `<svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="water12" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FC3EE"/><stop offset="1" stop-color="#4E93D0"/></linearGradient>
+</defs>
+<rect width="280" height="150" fill="#E3F1FB"/>
+<path d="M0,90 Q70,80 140,90 T280,90 V150 H0Z" fill="url(#water12)"/>
+<rect y="138" width="280" height="12" fill="#E8C87A"/>
+<ellipse cx="130" cy="100" rx="22" ry="14" fill="#D9D5C8" stroke="#0C447C" stroke-width="2"/>
+<path d="M112,96 Q130,88 148,96" stroke="#0C447C" stroke-width="1" fill="none" opacity=".4"/>
 <g class="a-wag" style="transform-origin:150px 96px">
-<ellipse cx="158" cy="88" rx="14" ry="7" fill="#EAF3EA" stroke="#B4B2A9"/>
-<path d="M150,84 L136,80 L150,90Z" fill="#D85A30"/>
+<ellipse cx="158" cy="88" rx="14" ry="7" fill="#F1EFE8" stroke="#B4B2A9"/>
+<path d="M150,84 L136,80 L150,90Z" fill="#D9432B"/>
 <circle cx="163" cy="86" r="1.4" fill="#2C2C2A"/>
 </g>
-<path d="M200,120 L214,110" stroke="#854F0B" stroke-width="3" stroke-linecap="round"/>
-<circle cx="196" cy="122" r="9" fill="#F5C4B3"/><polygon points="188,116 196,108 204,116" fill="#FAC775"/>
+<path d="M200,118 Q216,106 216,94" stroke="#7C5A34" stroke-width="3" stroke-linecap="round" fill="none"/>
+<path d="M40,120 Q44,102 60,102 Q76,102 80,120 L80,128 Q60,134 40,128Z" fill="#B9722A" stroke="#5A3818" stroke-width="1"/>
+<ellipse cx="60" cy="98" rx="14" ry="15" fill="#F0C4A6"/>
+<polygon points="47,90 60,78 73,90" fill="#7C5A34"/>
+<circle cx="55" cy="97" r="1.9" fill="#2C2C2A"/><circle cx="65" cy="97" r="1.9" fill="#2C2C2A"/>
+<path d="M50,108 Q60,114 70,108" stroke="#C4644A" stroke-width="1.4" fill="none"/>
 </svg>`
 },
 {
